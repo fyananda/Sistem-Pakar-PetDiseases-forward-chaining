@@ -75,12 +75,14 @@ def show_hasil_diagnosa():
     # =========================
     st.subheader("🩺 Gejala yang Dilaporkan")
 
-    gejala_klinis = [
+    gejala_klinis_raw = [
         data["gejala_1"],
         data["gejala_2"],
         data["gejala_3"],
         data["gejala_4"],
     ]
+    # Hanya ambil gejala yang benar-benar diisi (bukan None)
+    gejala_klinis = [g for g in gejala_klinis_raw if g]
     gejala_tambahan = {
         "Nafsu Makan Hilang" : data["nafsu_makan"],
         "Muntah"             : data["muntah"],
@@ -92,8 +94,11 @@ def show_hasil_diagnosa():
     col_g1, col_g2 = st.columns(2)
     with col_g1:
         st.markdown("**Gejala Klinis**")
-        for g in gejala_klinis:
-            st.markdown(f"- {g}")
+        if gejala_klinis:
+            for g in gejala_klinis:
+                st.markdown(f"- {g}")
+        else:
+            st.caption("Tidak ada gejala klinis yang dipilih.")
     with col_g2:
         st.markdown("**Gejala Tambahan**")
         for label, nilai in gejala_tambahan.items():

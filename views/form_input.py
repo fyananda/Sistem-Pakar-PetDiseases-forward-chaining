@@ -13,7 +13,8 @@ def show_form_input():
     # =========================
     pilihan_hewan    = sorted(df["Jenis_Hewan"].dropna().unique().tolist())
     pilihan_kelamin  = sorted(df["Jenis_Kelamin"].dropna().unique().tolist())
-    pilihan_gejala   = sorted(set(
+    TIDAK_ADA = "— Tidak Ada —"
+    pilihan_gejala = [TIDAK_ADA] + sorted(set(
         df["Gejala_1"].dropna().tolist() +
         df["Gejala_2"].dropna().tolist() +
         df["Gejala_3"].dropna().tolist() +
@@ -82,14 +83,14 @@ def show_form_input():
 
         col3, col4 = st.columns(2)
         with col3:
-            gejala1     = st.selectbox("Gejala 1", pilihan_gejala)
-            gejala2     = st.selectbox("Gejala 2", pilihan_gejala)
+            gejala1     = st.selectbox("Gejala 1 *", pilihan_gejala)
+            gejala2     = st.selectbox("Gejala 2 (opsional)", pilihan_gejala)
             nafsu_makan = st.radio("Nafsu Makan Hilang", opsi_ya_tidak, horizontal=True)
             muntah      = st.radio("Muntah", opsi_ya_tidak, horizontal=True)
 
         with col4:
-            gejala3 = st.selectbox("Gejala 3", pilihan_gejala)
-            gejala4 = st.selectbox("Gejala 4", pilihan_gejala)
+            gejala3 = st.selectbox("Gejala 3 (opsional)", pilihan_gejala)
+            gejala4 = st.selectbox("Gejala 4 (opsional)", pilihan_gejala)
             diare   = st.radio("Diare", opsi_ya_tidak, horizontal=True)
             batuk   = st.radio("Batuk", opsi_ya_tidak, horizontal=True)
 
@@ -107,8 +108,16 @@ def show_form_input():
             st.warning("⚠️ Nama hewan tidak boleh kosong.")
             return
 
+        # Validasi minimal Gejala 1 harus dipilih
+        if gejala1 == TIDAK_ADA:
+            st.warning("⚠️ Minimal **Gejala 1** harus diisi.")
+            return
+
+        # Filter gejala: simpan None jika "— Tidak Ada —"
+        def bersihkan(g):
+            return None if g == TIDAK_ADA else g
+
         # Simpan semua input ke session_state
-        # agar bisa dibaca oleh halaman hasil_diagnosa
         st.session_state["data_diagnosa"] = {
             "nama_hewan"    : nama_hewan,
             "jenis_hewan"   : jenis,
@@ -117,10 +126,10 @@ def show_form_input():
             "berat_badan"   : berat,
             "suhu_tubuh"    : suhu,
             "detak_jantung" : detak,
-            "gejala_1"      : gejala1,
-            "gejala_2"      : gejala2,
-            "gejala_3"      : gejala3,
-            "gejala_4"      : gejala4,
+            "gejala_1"      : bersihkan(gejala1),
+            "gejala_2"      : bersihkan(gejala2),
+            "gejala_3"      : bersihkan(gejala3),
+            "gejala_4"      : bersihkan(gejala4),
             "nafsu_makan"   : nafsu_makan,
             "muntah"        : muntah,
             "diare"         : diare,
