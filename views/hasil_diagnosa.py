@@ -5,7 +5,7 @@ from datetime import datetime
 from engine.forward_chaining import jalankan_forward_chaining
 
 # ============================================================
-# CACHE DATASET — hanya load sekali selama sesi berjalan
+# CACHE DATASET
 # ============================================================
 
 @st.cache_data
@@ -18,10 +18,7 @@ def load_data():
 # ============================================================
 
 def simpan_ke_history(data: dict, hasil: list):
-    """Menyimpan satu baris hasil diagnosa ke history_diagnosis.csv"""
-
     history_path = "history_diagnosis.csv"
-
     top = hasil[0] if hasil else {}
 
     baris = {
@@ -60,18 +57,43 @@ def show_hasil_diagnosa():
     # ========================
     st.markdown("""
     <style>
-    .hasil-title {
-        text-align: center;
-        font-size: 36px;
-        font-weight: bold;
-        color: #1f2937;
-        margin-bottom: 6px;
+    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap');
+
+    html, body, [class*="css"] {
+        font-family: 'Plus Jakarta Sans', sans-serif !important;
     }
-    .hasil-subtitle {
-        text-align: center;
-        color: #6b7280;
-        margin-bottom: 30px;
+
+    .block-container {
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+        max-width: 1100px !important;
     }
+
+    /* ── PAGE HEADER ── */
+    .page-header { margin-bottom: 28px; }
+    .page-header-title {
+        font-size: 28px;
+        font-weight: 800;
+        color: #0f172a;
+        letter-spacing: -0.02em;
+        margin-bottom: 4px;
+    }
+    .page-header-sub { font-size: 14px; color: #64748b; }
+
+    /* ── EMPTY STATE (sama persis dengan history) ── */
+    .empty-state {
+        text-align: center;
+        padding: 64px 24px;
+        background: #f8fafc;
+        border: 1px dashed #cbd5e1;
+        border-radius: 20px;
+        margin-top: 8px;
+    }
+    .empty-icon  { font-size: 48px; margin-bottom: 16px; }
+    .empty-title { font-size: 18px; font-weight: 700; color: #1e293b; margin-bottom: 6px; }
+    .empty-desc  { font-size: 14px; color: #64748b; }
+
+    /* ── RESULT CARD ── */
     .card-utama {
         background: white;
         border-left: 6px solid #2563eb;
@@ -99,15 +121,25 @@ def show_hasil_diagnosa():
     </style>
     """, unsafe_allow_html=True)
 
-    st.markdown("<div class='hasil-title'>🩺 Hasil Diagnosa</div>", unsafe_allow_html=True)
-    st.markdown("<div class='hasil-subtitle'>Hasil analisis berdasarkan gejala yang diinput</div>",
-                unsafe_allow_html=True)
+    # ── PAGE HEADER ──────────────────────────────────────────
+    st.markdown("""
+    <div class="page-header">
+        <div class="page-header-title">🩺 Hasil Diagnosa</div>
+        <div class="page-header-sub">Hasil analisis berdasarkan gejala yang diinput</div>
+    </div>
+    """, unsafe_allow_html=True)
 
     # ========================
-    # CEK SESSION STATE
+    # CEK SESSION STATE → EMPTY STATE
     # ========================
     if not st.session_state.get("sudah_diagnosa"):
-        st.info("ℹ️ Belum ada data diagnosa. Silakan isi **Form Input** terlebih dahulu.")
+        st.markdown("""
+        <div class="empty-state">
+            <div class="empty-icon">📋</div>
+            <div class="empty-title">Belum Ada Data Diagnosa</div>
+            <div class="empty-desc">Silakan isi <strong>Form Input</strong> terlebih dahulu untuk memulai diagnosa.</div>
+        </div>
+        """, unsafe_allow_html=True)
         return
 
     data = st.session_state["data_diagnosa"]
@@ -124,9 +156,9 @@ def show_hasil_diagnosa():
     col3.metric("Jenis Kelamin", data["jenis_kelamin"])
 
     col4, col5, col6 = st.columns(3)
-    col4.metric("Usia",         f'{data["usia"]} tahun')
-    col5.metric("Berat Badan",  f'{data["berat_badan"]} kg')
-    col6.metric("Suhu Tubuh",   f'{data["suhu_tubuh"]} °C')
+    col4.metric("Usia",        f'{data["usia"]} tahun')
+    col5.metric("Berat Badan", f'{data["berat_badan"]} kg')
+    col6.metric("Suhu Tubuh",  f'{data["suhu_tubuh"]} °C')
 
     st.markdown("---")
 
@@ -174,25 +206,29 @@ def show_hasil_diagnosa():
         hasil = jalankan_forward_chaining(data, df)
 
     # ========================
-    # SIMPAN KE HISTORY
-    # (hanya sekali per sesi diagnosa)
+    # SIMPAN KE HISTORY (sekali per sesi)
     # ========================
     if not st.session_state.get("sudah_disimpan"):
         simpan_ke_history(data, hasil)
         st.session_state["sudah_disimpan"] = True
 
     # ========================
-    # TIDAK ADA HASIL
+    # TIDAK ADA HASIL → EMPTY STATE
     # ========================
     if not hasil:
-        st.error("❌ Tidak ditemukan penyakit yang sesuai dengan gejala yang diinput.")
-        st.markdown("**Saran:** Coba tambahkan gejala yang lebih spesifik atau "
-                    "konsultasikan langsung ke dokter hewan.")
+        st.markdown("""
+        <div class="empty-state">
+            <div class="empty-icon">🔎</div>
+            <div class="empty-title">Tidak Ditemukan Penyakit</div>
+            <div class="empty-desc">
+                Tidak ada penyakit yang cocok dengan gejala yang diinput.<br>
+                Coba tambahkan gejala yang lebih spesifik atau konsultasikan ke dokter hewan.
+            </div>
+        </div>
+        """, unsafe_allow_html=True)
 
     else:
-        # ========================
-        # DIAGNOSA UTAMA (peringkat 1)
-        # ========================
+        # ── DIAGNOSA UTAMA ────────────────────────────────────
         top = hasil[0]
 
         st.markdown(f"""
@@ -207,32 +243,24 @@ def show_hasil_diagnosa():
         </div>
         """, unsafe_allow_html=True)
 
-        # ========================
-        # TABEL SEMUA HASIL
-        # ========================
+        # ── TABEL SEMUA HASIL ─────────────────────────────────
         st.subheader("📋 Seluruh Kemungkinan Diagnosa")
 
         tabel = pd.DataFrame([{
-            "Penyakit"        : h["penyakit"],
-            "Kecocokan (%)"   : h["kecocokan"],
-            "Gejala Cocok"    : h["gejala_cocok"],
-            "Total Rule"      : h["total_rule"],
+            "Penyakit"      : h["penyakit"],
+            "Kecocokan (%)": h["kecocokan"],
+            "Gejala Cocok"  : h["gejala_cocok"],
+            "Total Rule"    : h["total_rule"],
         } for h in hasil])
 
         st.dataframe(tabel, use_container_width=True, hide_index=True)
 
-        # ========================
-        # DIAGRAM BATANG
-        # ========================
+        # ── DIAGRAM BATANG ────────────────────────────────────
         st.subheader("📈 Diagram Tingkat Kecocokan")
-
         chart_df = tabel.set_index("Penyakit")[["Kecocokan (%)"]]
         st.bar_chart(chart_df)
 
-        # ========================
-        # DETAIL TIAP KEMUNGKINAN
-        # (selain diagnosa utama)
-        # ========================
+        # ── DETAIL KEMUNGKINAN LAIN ───────────────────────────
         if len(hasil) > 1:
             with st.expander("📂 Lihat detail kemungkinan lainnya"):
                 for h in hasil[1:]:
@@ -252,7 +280,7 @@ def show_hasil_diagnosa():
     # ========================
     st.markdown("<br>", unsafe_allow_html=True)
     if st.button("🔄 Ulangi Diagnosa"):
-        st.session_state["sudah_diagnosa"]  = False
-        st.session_state["data_diagnosa"]   = {}
-        st.session_state["sudah_disimpan"]  = False   # ← reset flag
+        st.session_state["sudah_diagnosa"] = False
+        st.session_state["data_diagnosa"]  = {}
+        st.session_state["sudah_disimpan"] = False
         st.rerun()
