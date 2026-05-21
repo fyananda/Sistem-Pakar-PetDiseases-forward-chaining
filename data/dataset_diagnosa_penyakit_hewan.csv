@@ -1,0 +1,432 @@
+Jenis_Hewan,Usia,Jenis_Kelamin,Berat_Badan_kg,Gejala_1,Gejala_2,Gejala_3,Gejala_4,Durasi,Nafsu_Makan_Hilang,Muntah,Diare,Batuk,Kesulitan_Bernafas,Pincang,Lesi_Kulit,Keluar_Lendir_Hidung,Keluar_Cairan_Mata,Suhu_Tubuh,Detak_Jantung,Prediksi_Penyakit
+Anjing,4,Jantan,25.0,Demam,Lesu,Kehilangan Nafsu Makan,Muntah,3 hari,Ya,Ya,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak,39.5°C,120,Parvovirus
+Kucing,2,Betina,4.5,Batuk,Bersin,Keluar Cairan Mata,Keluar Lendir Hidung,1 minggu,Tidak,Tidak,Tidak,Ya,Tidak,Tidak,Tidak,Ya,Ya,38.9°C,150,Infeksi Saluran Pernapasan Atas
+Sapi,3,Betina,600.0,Demam,Keluar Lendir Hidung,Kesulitan Bernafas,Batuk,5 hari,Ya,Tidak,Tidak,Ya,Ya,Tidak,Tidak,Ya,Tidak,40.1°C,90,Penyakit Mulut dan Kuku
+Anjing,1,Jantan,10.0,Diare,Muntah,Lesu,Kehilangan Nafsu Makan,2 hari,Ya,Ya,Ya,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak,39.2°C,130,Gastroenteritis
+Kucing,5,Jantan,3.8,Lesu,Kehilangan Nafsu Makan,Lesi Kulit,,2 minggu,Ya,Tidak,Tidak,Tidak,Tidak,Tidak,Ya,Tidak,Tidak,38.7°C,160,Infeksi Jamur
+Kuda,6,Betina,500.0,Batuk,Kesulitan Bernafas,Keluar Lendir Hidung,Demam,10 hari,Ya,Tidak,Tidak,Ya,Ya,Tidak,Tidak,Ya,Tidak,39.8°C,85,Influenza Kuda
+Anjing,3,Betina,30.0,Pincang,Demam,Lesi Kulit,Lesu,7 hari,Ya,Tidak,Tidak,Tidak,Tidak,Ya,Ya,Tidak,Tidak,39.3°C,110,Penyakit Lyme
+Kucing,2,Jantan,6.0,Muntah,Kehilangan Nafsu Makan,Lesu,Diare,4 hari,Ya,Ya,Ya,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak,39.1°C,140,Parasit Usus
+Anjing,5,Jantan,23.0,Kesulitan Bernafas,Batuk,Keluar Lendir Hidung,Kehilangan Nafsu Makan,6 hari,Ya,Tidak,Tidak,Ya,Ya,Tidak,Tidak,Ya,Tidak,40.0°C,115,Distemper Anjing
+Sapi,4,Betina,580.0,Lesu,Penurunan Produksi Susu,Demam,,8 hari,Ya,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak,39.6°C,70,Mastitis
+Kucing,3,Betina,5.0,Lesu,Keluar Cairan Mata,Muntah,Demam,5 hari,Ya,Ya,Tidak,Tidak,Tidak,Tidak,Ya,Tidak,Tidak,39.0°C,130,Panleukopenia
+Anjing,2,Betina,12.0,Lesu,Kehilangan Nafsu Makan,Batuk,Muntah,4 hari,Ya,Ya,Tidak,Ya,Tidak,Tidak,Tidak,Tidak,Tidak,39.4°C,115,Batuk Kennel
+Kucing,1,Jantan,4.2,Muntah,Diare,Lesu,Kehilangan Nafsu Makan,3 hari,Ya,Ya,Ya,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak,38.8°C,140,Panleukopenia
+Kuda,8,Betina,490.0,Pincang,Demam,Batuk,Keluar Lendir Hidung,1 minggu,Ya,Tidak,Tidak,Ya,Tidak,Ya,Tidak,Ya,Tidak,39.9°C,75,Strangles
+Sapi,5,Jantan,650.0,Demam,Lesu,Penurunan Produksi Susu,Kehilangan Nafsu Makan,5 hari,Ya,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak,39.7°C,80,Penyakit Pernapasan Sapi
+Anjing,4,Betina,3.5,Lesu,Muntah,Diare,Batuk,2 hari,Ya,Ya,Ya,Ya,Tidak,Tidak,Tidak,Tidak,Tidak,39.1°C,130,Parvovirus Anjing
+Kucing,3,Jantan,5.0,Lesi Kulit,Kehilangan Nafsu Makan,Lesu,Muntah,10 hari,Ya,Ya,Tidak,Tidak,Tidak,Tidak,Ya,Tidak,Tidak,38.6°C,155,Kurap
+Anjing,6,Jantan,28.0,Pincang,Demam,Lesi Kulit,Lesu,8 hari,Ya,Tidak,Tidak,Tidak,Tidak,Ya,Ya,Tidak,Tidak,39.3°C,120,Penyakit Bawaan Caplak
+Kuda,10,Jantan,700.0,Batuk,Keluar Lendir Hidung,Kesulitan Bernafas,Demam,2 minggu,Ya,Tidak,Tidak,Ya,Ya,Tidak,Tidak,Ya,Tidak,40.2°C,85,Influenza Kuda
+Kucing,5,Betina,4.8,Lesu,Keluar Cairan Mata,Kehilangan Nafsu Makan,Keluar Lendir Hidung,1 minggu,Tidak,Tidak,Tidak,Ya,Ya,Tidak,Tidak,Ya,Ya,39.0°C,150,Infeksi Saluran Pernapasan Atas
+Sapi,3,Betina,590.0,Penurunan Produksi Susu,Demam,Kehilangan Nafsu Makan,Lesu,7 hari,Ya,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak,39.5°C,70,Mastitis
+Kuda,7,Jantan,450.0,Lesu,Kehilangan Nafsu Makan,Demam,Kesulitan Bernafas,5 hari,Ya,Tidak,Tidak,Ya,Ya,Tidak,Tidak,Tidak,Tidak,39.7°C,90,Influenza Kuda
+Anjing,2,Betina,8.0,Batuk,Keluar Lendir Hidung,Kehilangan Nafsu Makan,Lesu,4 hari,Ya,Tidak,Tidak,Ya,Tidak,Tidak,Tidak,Ya,Tidak,39.1°C,125,Batuk Kennel
+Kucing,3,Jantan,5.5,Lesu,Muntah,Diare,Dehidrasi,3 hari,Ya,Ya,Ya,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak,39.3°C,140,Panleukopenia
+Sapi,5,Betina,700.0,Demam,Penurunan Produksi Susu,Lesu,Keluar Lendir Hidung,7 hari,Ya,Tidak,Tidak,Ya,Ya,Tidak,Tidak,Ya,Tidak,39.8°C,80,Penyakit Pernapasan Sapi
+Anjing,4,Jantan,30.0,Pincang,Pembengkakan,Kehilangan Nafsu Makan,Demam,10 hari,Ya,Tidak,Tidak,Tidak,Tidak,Ya,Tidak,Tidak,Tidak,39.5°C,110,Artritis
+Kucing,2,Betina,4.5,Batuk,Keluar Lendir Hidung,Keluar Cairan Mata,Bersin,5 hari,Tidak,Tidak,Tidak,Ya,Tidak,Tidak,Tidak,Ya,Ya,38.8°C,150,Herpesvirus Kucing
+Kuda,9,Betina,480.0,Batuk,Keluar Lendir Hidung,Demam,Kesulitan Bernafas,6 hari,Ya,Tidak,Tidak,Ya,Ya,Tidak,Tidak,Tidak,Tidak,39.9°C,85,Rinoneumonitis Kuda
+Anjing,1,Jantan,3.0,Muntah,Diare,Lesu,Demam,3 hari,Ya,Ya,Ya,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak,39.4°C,135,Parvovirus
+Kucing,6,Jantan,6.0,Kehilangan Nafsu Makan,Penurunan Berat Badan,Muntah,Lesu,2 minggu,Ya,Ya,Tidak,Tidak,Tidak,Tidak,Ya,Tidak,Tidak,39.0°C,160,Leukemia Kucing
+Sapi,3,Betina,650.0,Lesu,Demam,Penurunan Produksi Susu,Keluar Lendir Hidung,8 hari,Ya,Tidak,Tidak,Ya,Tidak,Tidak,Tidak,Tidak,Tidak,39.6°C,75,Mastitis
+Anjing,5,Jantan,30.0,Lesu,Kesulitan Bernafas,Batuk,Kehilangan Nafsu Makan,6 hari,Ya,Tidak,Tidak,Ya,Ya,Tidak,Tidak,Tidak,Tidak,39.6°C,125,Penyakit Cacing Jantung
+Kucing,6,Betina,7.5,Kehilangan Nafsu Makan,Muntah,Diare,Lesi Kulit,4 hari,Ya,Ya,Ya,Tidak,Tidak,Ya,Tidak,Tidak,Tidak,38.9°C,145,Peritonitis Infeksius Kucing
+Kuda,9,Jantan,500.0,Keluar Lendir Hidung,Batuk,Kesulitan Bernafas,Lesu,10 hari,Tidak,Tidak,Tidak,Ya,Ya,Tidak,Tidak,Ya,Tidak,40.0°C,78,Equine Viral Arteritis
+Sapi,4,Betina,580.0,Kehilangan Nafsu Makan,Diare,Lesu,Penurunan Produksi Susu,7 hari,Ya,Tidak,Ya,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak,39.4°C,82,Johne's Disease
+Anjing,2,Betina,9.0,Demam,Muntah,Lesu,Lesi Kulit,3 hari,Ya,Ya,Tidak,Tidak,Tidak,Ya,Ya,Tidak,Tidak,39.2°C,132,Distemper Anjing
+Kucing,8,Jantan,4.6,Kehilangan Nafsu Makan,Muntah,Keluar Cairan Mata,Lesu,2 hari,Tidak,Ya,Tidak,Tidak,Tidak,Tidak,Ya,Tidak,Ya,39.0°C,140,Konjungtivitis
+Kuda,6,Betina,520.0,Pincang,Demam,Lesi Kulit,Kehilangan Nafsu Makan,5 hari,Tidak,Tidak,Tidak,Tidak,Tidak,Ya,Ya,Tidak,Tidak,39.8°C,76,Piroplasmosis Kuda
+Sapi,3,Jantan,620.0,Diare,Lesu,Kehilangan Nafsu Makan,Penurunan Produksi Susu,8 hari,Ya,Tidak,Ya,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak,39.7°C,79,Salmonelosis
+Anjing,7,Jantan,5.5,Batuk,Kesulitan Bernafas,Lesu,Kehilangan Nafsu Makan,2 minggu,Ya,Tidak,Tidak,Ya,Ya,Tidak,Tidak,Tidak,Tidak,39.5°C,120,Bronkitis Kronis
+Kucing,4,Betina,3.2,Keluar Cairan Mata,Keluar Lendir Hidung,Kehilangan Nafsu Makan,Lesu,1 minggu,Tidak,Tidak,Tidak,Ya,Ya,Tidak,Tidak,Ya,Ya,39.3°C,150,Infeksi Saluran Pernapasan Atas Kucing
+Anjing,4,Betina,28.0,Lesu,Muntah,Diare,Kehilangan Nafsu Makan,5 hari,Ya,Tidak,Ya,Ya,Tidak,Ya,Tidak,Tidak,Tidak,39.2°C,130,Parvovirus
+Kucing,3,Jantan,5.5,Kehilangan Nafsu Makan,Batuk,Keluar Lendir Hidung,Keluar Cairan Mata,4 hari,Ya,Tidak,Tidak,Ya,Ya,Tidak,Tidak,Tidak,Ya,38.7°C,145,Infeksi Saluran Pernapasan Atas Kucing
+Kuda,10,Betina,450.0,Pincang,Demam,Sendi Bengkak,Lesu,8 hari,Tidak,Tidak,Tidak,Ya,Ya,Tidak,Tidak,Tidak,Tidak,39.4°C,75,Artritis Kuda
+Sapi,6,Jantan,600.0,Batuk,Keluar Lendir Hidung,Kesulitan Bernafas,Demam,7 hari,Tidak,Tidak,Tidak,Ya,Ya,Tidak,Tidak,Tidak,Tidak,39.9°C,82,Penyakit Pernapasan Sapi
+Anjing,5,Jantan,22.0,Muntah,Kehilangan Nafsu Makan,Demam,Diare,3 hari,Ya,Ya,Tidak,Tidak,Ya,Ya,Tidak,Tidak,Tidak,39.6°C,138,Gastroenteritis
+Kucing,2,Betina,4.0,Bersin,Keluar Cairan Mata,Kehilangan Nafsu Makan,Lesu,2 hari,Ya,Tidak,Ya,Tidak,Ya,Tidak,Tidak,Tidak,Ya,39.0°C,135,Herpesvirus Kucing
+Kuda,12,Jantan,500.0,Pincang,Demam,Sendi Bengkak,Reduced Appetite,5 hari,Tidak,Tidak,Tidak,Ya,Tidak,Ya,Tidak,Tidak,Tidak,39.7°C,78,Equine Infectious Anemia
+Sapi,3,Betina,570.0,Lesu,Diare,Kehilangan Nafsu Makan,Dehidrasi,6 hari,Ya,Tidak,Tidak,Tidak,Tidak,Ya,Tidak,Tidak,Tidak,39.1°C,80,Diare Virus Sapi
+Anjing,8,Jantan,15.0,Batuk,Kesulitan Bernafas,Lesu,Kehilangan Nafsu Makan,1 minggu,Ya,Tidak,Ya,Tidak,Ya,Tidak,Tidak,Tidak,Ya,39.3°C,126,Batuk Kennel
+Kucing,5,Betina,4.5,Muntah,Diare,Kehilangan Nafsu Makan,Dehidrasi,3 hari,Tidak,Ya,Tidak,Ya,Tidak,Ya,Tidak,Ya,Tidak,38.5°C,142,Pankreatitis
+Kuda,15,Jantan,600.0,Kehilangan Nafsu Makan,Lesu,Kesulitan Bernafas,Batuk,10 hari,Tidak,Tidak,Ya,Ya,Tidak,Tidak,Ya,Ya,Tidak,39.8°C,70,Pneumonia Kuda
+Sapi,7,Betina,620.0,Demam,Batuk,Lesu,Penurunan Produksi Susu,5 hari,Ya,Tidak,Ya,Ya,Tidak,Ya,Tidak,Tidak,Tidak,39.6°C,81,Mastitis
+Anjing,9,Jantan,25.0,Lesu,Muntah,Diare,Kehilangan Nafsu Makan,4 hari,Ya,Ya,Tidak,Ya,Ya,Tidak,Tidak,Tidak,Tidak,39.1°C,124,Parvovirus Anjing
+Kucing,4,Betina,5.0,Keluar Cairan Mata,Keluar Lendir Hidung,Batuk,Lesu,6 hari,Ya,Tidak,Tidak,Ya,Tidak,Ya,Ya,Tidak,Tidak,38.6°C,148,Calicivirus Kucing
+Kuda,11,Betina,520.0,Pincang,Sendi Bengkak,Reduced Appetite,Penurunan Berat Badan,7 hari,Tidak,Tidak,Ya,Ya,Tidak,Ya,Tidak,Ya,Tidak,39.7°C,77,Laminitis
+Sapi,2,Jantan,550.0,Diare,Lesu,Kehilangan Nafsu Makan,Dehidrasi,4 hari,Ya,Tidak,Tidak,Ya,Ya,Tidak,Ya,Tidak,Tidak,39.5°C,85,Kriptosporidiosis
+Anjing,3,Betina,17.0,Batuk,Kesulitan Bernafas,Demam,Keluar Lendir Hidung,8 hari,Ya,Tidak,Tidak,Ya,Tidak,Ya,Tidak,Ya,Ya,39.4°C,129,Infeksi Bordetella
+Kucing,6,Jantan,4.2,Muntah,Kehilangan Nafsu Makan,Lesu,Penurunan Berat Badan,9 hari,Ya,Tidak,Ya,Tidak,Ya,Tidak,Ya,Tidak,Tidak,38.9°C,146,Penyakit Radang Usus
+Kuda,7,Jantan,540.0,Pincang,Sendi Bengkak,Lesu,Penurunan Berat Badan,6 hari,Tidak,Tidak,Tidak,Ya,Tidak,Ya,Ya,Tidak,Tidak,39.6°C,76,Penyakit Sendi Degeneratif
+Sapi,5,Betina,620.0,Demam,Diare,Lesu,Kehilangan Nafsu Makan,4 hari,Ya,Tidak,Ya,Tidak,Ya,Tidak,Ya,Ya,Tidak,39.8°C,83,Virus Leukemia Sapi
+Anjing,3,Jantan,2.5,Bersin,Keluar Cairan Mata,Kesulitan Bernafas,Lesu,5 hari,Ya,Tidak,Tidak,Ya,Tidak,Tidak,Ya,Tidak,Ya,39.5°C,131,Rinitis Alergi
+Kucing,5,Betina,3.0,Muntah,Kehilangan Nafsu Makan,Diare,Penurunan Berat Badan,6 hari,Ya,Ya,Tidak,Tidak,Ya,Tidak,Ya,Tidak,Tidak,38.7°C,143,Gastroenteritis
+Kuda,10,Betina,680.0,Lesu,Demam,Kehilangan Nafsu Makan,Penurunan Berat Badan,10 hari,Tidak,Tidak,Ya,Ya,Tidak,Ya,Tidak,Tidak,Tidak,39.9°C,74,Leptospirosis Kuda
+Sapi,4,Jantan,590.0,Kehilangan Nafsu Makan,Lesu,Diare,Dehidrasi,5 hari,Ya,Tidak,Tidak,Ya,Tidak,Tidak,Ya,Tidak,Tidak,39.3°C,84,Koksidiosis Sapi
+Anjing,7,Betina,8.0,Muntah,Diare,Penurunan Berat Badan,Kehilangan Nafsu Makan,3 hari,Ya,Ya,Tidak,Ya,Ya,Tidak,Tidak,Ya,Ya,39.2°C,120,Gastroenteritis
+Kucing,9,Jantan,6.5,Lesu,Kehilangan Nafsu Makan,Penurunan Berat Badan,Dehidrasi,8 hari,Ya,Ya,Ya,Tidak,Tidak,Tidak,Ya,Ya,Tidak,39.0°C,140,Penyakit Ginjal Kucing
+Kuda,14,Jantan,520.0,Batuk,Kesulitan Bernafas,Demam,Penurunan Berat Badan,12 hari,Tidak,Ya,Ya,Tidak,Ya,Tidak,Tidak,Ya,Tidak,39.7°C,72,Influenza Kuda
+Sapi,6,Betina,600.0,Demam,Keluar Lendir Hidung,Penurunan Produksi Susu,Lesu,5 hari,Ya,Tidak,Tidak,Ya,Tidak,Ya,Tidak,Tidak,Tidak,39.4°C,86,Virus Sinsitial Pernapasan Sapi
+Anjing,11,Jantan,35.0,Lesu,Kehilangan Nafsu Makan,Demam,Muntah,7 hari,Ya,Tidak,Tidak,Ya,Tidak,Ya,Tidak,Ya,Tidak,39.3°C,118,Distemper Anjing
+Kucing,8,Betina,5.0,Batuk,Keluar Lendir Hidung,Keluar Cairan Mata,Kehilangan Nafsu Makan,4 hari,Ya,Tidak,Ya,Tidak,Ya,Tidak,Ya,Tidak,Tidak,38.9°C,147,Rinotrakeitis Virus Kucing
+Anjing,6,Betina,30.0,Batuk,Kesulitan Bernafas,Lesu,Kehilangan Nafsu Makan,6 hari,Ya,Tidak,Ya,Tidak,Ya,Tidak,Tidak,Tidak,Ya,39.4°C,125,Batuk Kennel
+Kucing,4,Jantan,4.8,Bersin,Keluar Cairan Mata,Kehilangan Nafsu Makan,Lesu,5 hari,Ya,Tidak,Tidak,Ya,Ya,Tidak,Ya,Tidak,Ya,38.7°C,137,Herpesvirus Kucing
+Kuda,10,Betina,510.0,Pincang,Demam,Sendi Bengkak,Reduced Appetite,9 hari,Tidak,Tidak,Ya,Ya,Tidak,Ya,Tidak,Tidak,Tidak,39.8°C,74,Laminitis Kuda
+Sapi,7,Jantan,590.0,Batuk,Keluar Lendir Hidung,Kesulitan Bernafas,Lesu,4 hari,Tidak,Tidak,Tidak,Ya,Ya,Tidak,Ya,Tidak,Tidak,39.9°C,80,Pneumonia Sapi
+Anjing,5,Jantan,10.0,Muntah,Diare,Kehilangan Nafsu Makan,Demam,3 hari,Ya,Ya,Tidak,Tidak,Tidak,Ya,Tidak,Ya,Tidak,39.2°C,132,Gastroenteritis
+Kucing,3,Betina,4.2,Lesu,Muntah,Diare,Dehidrasi,6 hari,Ya,Tidak,Ya,Ya,Tidak,Ya,Tidak,Tidak,Tidak,39.1°C,145,Panleukopenia Kucing
+Kuda,13,Jantan,490.0,Demam,Keluar Lendir Hidung,Kesulitan Bernafas,Lesu,8 hari,Tidak,Tidak,Tidak,Ya,Ya,Tidak,Tidak,Ya,Tidak,39.6°C,78,Influenza Kuda
+Sapi,8,Betina,630.0,Kehilangan Nafsu Makan,Penurunan Berat Badan,Lesu,Reduced Milk Production,7 hari,Tidak,Ya,Tidak,Tidak,Ya,Ya,Ya,Tidak,Tidak,39.5°C,83,Johne's Disease
+Anjing,7,Betina,35.0,Muntah,Diare,Kehilangan Nafsu Makan,Dehidrasi,3 hari,Ya,Tidak,Ya,Tidak,Ya,Tidak,Tidak,Tidak,Ya,39.0°C,127,Parvovirus
+Kucing,2,Jantan,5.5,Batuk,Bersin,Keluar Lendir Hidung,Keluar Cairan Mata,4 hari,Ya,Tidak,Ya,Tidak,Tidak,Ya,Tidak,Ya,Tidak,38.6°C,144,Calicivirus Kucing
+Kuda,14,Betina,520.0,Sendi Bengkak,Pincang,Demam,Kehilangan Nafsu Makan,10 hari,Tidak,Tidak,Ya,Ya,Ya,Tidak,Tidak,Tidak,Tidak,39.7°C,75,Artritis Kuda
+Sapi,5,Jantan,600.0,Diare,Dehidrasi,Lesu,Kehilangan Nafsu Makan,5 hari,Ya,Tidak,Tidak,Ya,Tidak,Ya,Tidak,Tidak,Ya,39.4°C,84,Salmonelosis
+Anjing,4,Betina,7.0,Batuk,Kesulitan Bernafas,Kehilangan Nafsu Makan,Lesu,6 hari,Ya,Tidak,Ya,Tidak,Ya,Ya,Tidak,Tidak,Tidak,39.3°C,133,Flu Anjing
+Kucing,5,Jantan,3.7,Muntah,Diare,Dehidrasi,Penurunan Berat Badan,3 hari,Ya,Ya,Tidak,Tidak,Ya,Ya,Tidak,Tidak,Tidak,38.8°C,148,Pankreatitis
+Kuda,12,Jantan,600.0,Sendi Bengkak,Pincang,Kehilangan Nafsu Makan,Penurunan Berat Badan,5 hari,Tidak,Tidak,Tidak,Ya,Ya,Tidak,Tidak,Ya,Tidak,39.9°C,72,Equine Infectious Anemia
+Sapi,3,Betina,570.0,Demam,Keluar Lendir Hidung,Lesu,Batuk,4 hari,Ya,Tidak,Tidak,Ya,Tidak,Ya,Tidak,Tidak,Ya,39.8°C,86,Virus Sinsitial Pernapasan
+Anjing,9,Jantan,2.0,Muntah,Kehilangan Nafsu Makan,Diare,Lesu,2 hari,Ya,Ya,Tidak,Tidak,Tidak,Ya,Tidak,Tidak,Ya,39.1°C,128,Gastroenteritis
+Kucing,4,Betina,3.3,Keluar Cairan Mata,Keluar Lendir Hidung,Bersin,Batuk,6 hari,Ya,Tidak,Tidak,Ya,Tidak,Ya,Ya,Tidak,Tidak,38.5°C,138,Herpesvirus Kucing
+Kuda,16,Betina,530.0,Penurunan Berat Badan,Kehilangan Nafsu Makan,Lesu,Demam,8 hari,Tidak,Tidak,Ya,Ya,Tidak,Ya,Ya,Tidak,Tidak,39.6°C,71,Penyakit Cushing Kuda
+Sapi,6,Jantan,620.0,Penurunan Berat Badan,Reduced Milk Production,Lesu,Kehilangan Nafsu Makan,7 hari,Ya,Tidak,Ya,Tidak,Ya,Ya,Tidak,Tidak,Tidak,39.4°C,87,Tuberkulosis
+Anjing,8,Betina,20.0,Muntah,Diare,Penurunan Berat Badan,Dehidrasi,4 hari,Ya,Tidak,Ya,Tidak,Ya,Tidak,Tidak,Ya,Tidak,39.0°C,120,Pankreatitis
+Kucing,6,Jantan,4.0,Lesu,Muntah,Kehilangan Nafsu Makan,Penurunan Berat Badan,5 hari,Ya,Tidak,Tidak,Ya,Ya,Tidak,Ya,Tidak,Tidak,38.9°C,149,Hipertiroidisme
+Kuda,10,Jantan,450.0,Pincang,Sendi Bengkak,Reduced Appetite,Penurunan Berat Badan,9 hari,Tidak,Tidak,Ya,Ya,Ya,Tidak,Tidak,Ya,Tidak,39.8°C,76,Artritis Kuda
+Sapi,3,Betina,580.0,Diare,Dehidrasi,Kehilangan Nafsu Makan,Lesu,5 hari,Ya,Ya,Tidak,Tidak,Tidak,Ya,Tidak,Tidak,Ya,39.3°C,85,Koksidiosis
+Anjing,6,Jantan,35.0,Lesu,Kehilangan Nafsu Makan,Demam,Muntah,6 hari,Ya,Tidak,Ya,Tidak,Ya,Ya,Tidak,Tidak,Ya,39.5°C,130,Hepatitis Anjing
+Kucing,7,Betina,4.4,Keluar Lendir Hidung,Keluar Cairan Mata,Bersin,Lesu,4 hari,Ya,Tidak,Tidak,Ya,Tidak,Ya,Ya,Tidak,Tidak,38.6°C,142,Infeksi Saluran Pernapasan Atas
+Kuda,11,Betina,530.0,Penurunan Berat Badan,Sendi Bengkak,Reduced Appetite,Demam,8 hari,Tidak,Ya,Ya,Tidak,Ya,Tidak,Tidak,Ya,Tidak,39.7°C,74,Ensefalitis Kuda
+Sapi,5,Jantan,610.0,Keluar Lendir Hidung,Batuk,Kesulitan Bernafas,Demam,3 hari,Ya,Tidak,Ya,Tidak,Tidak,Ya,Tidak,Tidak,Ya,39.9°C,82,Influenza Sapi
+Anjing,8,Betina,27.0,Muntah,Lesu,Diare,Kehilangan Nafsu Makan,4 hari,Ya,Ya,Tidak,Tidak,Ya,Tidak,Tidak,Ya,Tidak,39.2°C,131,Gastroenteritis
+Kucing,4,Jantan,4.5,Keluar Cairan Mata,Lesu,Keluar Lendir Hidung,Bersin,5 hari,Ya,Tidak,Tidak,Ya,Ya,Tidak,Tidak,Ya,Tidak,38.8°C,140,Calicivirus Kucing
+Anjing,5,Jantan,32.0,Muntah,Diare,Kehilangan Nafsu Makan,Lesu,3 hari,Ya,Tidak,Ya,Tidak,Ya,Tidak,Tidak,Tidak,Ya,39.2°C,130,Gastroenteritis
+Kucing,7,Betina,4.1,Bersin,Keluar Lendir Hidung,Keluar Cairan Mata,Lesu,4 hari,Ya,Tidak,Tidak,Ya,Ya,Tidak,Ya,Tidak,Ya,38.9°C,142,Infeksi Saluran Pernapasan Atas Kucing
+Kuda,15,Jantan,480.0,Pincang,Sendi Bengkak,Kehilangan Nafsu Makan,Demam,7 hari,Tidak,Ya,Tidak,Tidak,Ya,Ya,Tidak,Ya,Tidak,39.7°C,75,Artritis Kuda
+Sapi,6,Betina,620.0,Penurunan Berat Badan,Reduced Milk Production,Kehilangan Nafsu Makan,Lesu,10 hari,Ya,Ya,Tidak,Ya,Tidak,Ya,Tidak,Tidak,Ya,39.4°C,85,Johne's Disease
+Kelinci,3,Betina,1.8,Bersin,Keluar Lendir Hidung,Kehilangan Nafsu Makan,Lesu,5 hari,Tidak,Ya,Tidak,Ya,Ya,Tidak,Tidak,Ya,Tidak,38.6°C,160,Snuffles
+Domba,4,Jantan,75.0,Batuk,Kesulitan Bernafas,Keluar Lendir Hidung,Demam,4 hari,Ya,Tidak,Tidak,Ya,Tidak,Ya,Ya,Tidak,Tidak,40.0°C,78,Pneumonia
+Kambing,5,Betina,68.0,Diare,Dehidrasi,Lesu,Kehilangan Nafsu Makan,6 hari,Ya,Tidak,Ya,Tidak,Tidak,Ya,Tidak,Tidak,Ya,39.3°C,82,Koksidiosis
+Babi,2,Jantan,110.0,Muntah,Diare,Kehilangan Nafsu Makan,Demam,3 hari,Tidak,Ya,Tidak,Ya,Ya,Tidak,Tidak,Ya,Ya,39.5°C,85,Diare Epidemik Babi
+Anjing,4,Betina,9.0,Lesu,Muntah,Kehilangan Nafsu Makan,Dehidrasi,3 hari,Ya,Tidak,Ya,Tidak,Ya,Ya,Tidak,Tidak,Tidak,39.0°C,132,Parvovirus
+Kucing,6,Jantan,4.2,Batuk,Bersin,Keluar Cairan Mata,Lesu,4 hari,Ya,Tidak,Tidak,Ya,Tidak,Ya,Ya,Tidak,Ya,38.7°C,140,Calicivirus Kucing
+Kuda,12,Betina,600.0,Demam,Sendi Bengkak,Kehilangan Nafsu Makan,Pincang,6 hari,Tidak,Tidak,Ya,Tidak,Ya,Ya,Tidak,Ya,Tidak,39.6°C,77,Laminitis Kuda
+Sapi,8,Jantan,580.0,Batuk,Kesulitan Bernafas,Lesu,Keluar Lendir Hidung,5 hari,Ya,Tidak,Tidak,Ya,Tidak,Ya,Tidak,Tidak,Ya,40.0°C,83,Penyakit Pernapasan Sapi
+Kelinci,2,Jantan,1.6,Diare,Kehilangan Nafsu Makan,Dehidrasi,Penurunan Berat Badan,3 hari,Tidak,Ya,Tidak,Ya,Tidak,Ya,Tidak,Tidak,Ya,38.5°C,155,Enteritis
+Domba,3,Betina,80.0,Penurunan Berat Badan,Lesu,Kehilangan Nafsu Makan,Reduced Wool Growth,8 hari,Ya,Tidak,Ya,Tidak,Tidak,Ya,Tidak,Ya,Tidak,39.8°C,77,Scrapie
+Kambing,4,Jantan,72.0,Demam,Lesu,Penurunan Berat Badan,Kehilangan Nafsu Makan,7 hari,Tidak,Ya,Tidak,Tidak,Ya,Ya,Tidak,Tidak,Ya,39.7°C,83,Artritis Ensefalitis Kaprin
+Babi,3,Betina,115.0,Bersin,Batuk,Keluar Lendir Hidung,Kesulitan Bernafas,5 hari,Ya,Tidak,Ya,Tidak,Tidak,Ya,Ya,Tidak,Tidak,40.0°C,80,Influenza Babi
+Anjing,5,Jantan,11.0,Muntah,Diare,Lesu,Penurunan Berat Badan,3 hari,Ya,Tidak,Ya,Tidak,Tidak,Ya,Tidak,Ya,Tidak,39.2°C,134,Pankreatitis
+Kucing,8,Betina,4.5,Keluar Cairan Mata,Keluar Lendir Hidung,Bersin,Lesu,6 hari,Ya,Tidak,Ya,Ya,Tidak,Ya,Tidak,Tidak,Ya,38.6°C,139,Rinotrakeitis Virus Kucing
+Kuda,14,Jantan,500.0,Pincang,Penurunan Berat Badan,Reduced Appetite,Sendi Bengkak,10 hari,Tidak,Ya,Tidak,Ya,Ya,Tidak,Tidak,Ya,Tidak,39.5°C,76,Osteoartritis Kuda
+Sapi,7,Betina,590.0,Diare,Dehidrasi,Lesu,Kehilangan Nafsu Makan,6 hari,Ya,Ya,Tidak,Tidak,Ya,Tidak,Tidak,Ya,Tidak,39.3°C,84,Penyakit Johne Sapi
+Kelinci,5,Betina,6.8,Lesu,Kehilangan Nafsu Makan,Penurunan Berat Badan,Diare,5 hari,Ya,Tidak,Ya,Tidak,Ya,Ya,Tidak,Tidak,Ya,39.0°C,150,Stasis Gastrointestinal
+Domba,6,Jantan,65.0,Batuk,Kesulitan Bernafas,Keluar Lendir Hidung,Kehilangan Nafsu Makan,4 hari,Tidak,Tidak,Ya,Ya,Tidak,Ya,Ya,Tidak,Ya,39.9°C,80,Pasteurelosis
+Kambing,3,Betina,70.0,Diare,Dehidrasi,Lesu,Kehilangan Nafsu Makan,5 hari,Ya,Ya,Tidak,Tidak,Tidak,Ya,Tidak,Ya,Ya,39.4°C,81,Giardiasis
+Anjing,7,Betina,15.0,Lesu,Muntah,Kehilangan Nafsu Makan,Diare,4 hari,Ya,Tidak,Ya,Tidak,Tidak,Ya,Tidak,Ya,Tidak,39.1°C,125,Parvovirus Anjing
+Kucing,5,Jantan,5.2,Keluar Lendir Hidung,Keluar Cairan Mata,Bersin,Lesu,3 hari,Ya,Ya,Tidak,Ya,Tidak,Tidak,Tidak,Ya,Tidak,38.8°C,140,Kompleks Penyakit Pernapasan Kucing
+Kuda,9,Betina,460.0,Pincang,Sendi Bengkak,Kehilangan Nafsu Makan,Mobilitas Berkurang,6 hari,Tidak,Ya,Tidak,Tidak,Ya,Ya,Tidak,Ya,Ya,39.6°C,78,Penyakit Lyme Kuda
+Sapi,6,Jantan,570.0,Batuk,Keluar Lendir Hidung,Kesulitan Bernafas,Demam,5 hari,Ya,Tidak,Ya,Tidak,Ya,Tidak,Tidak,Ya,Ya,39.4°C,81,Tuberkulosis Sapi
+Kelinci,4,Betina,2.1,Bersin,Keluar Lendir Hidung,Penurunan Berat Badan,Lesu,3 hari,Ya,Tidak,Tidak,Ya,Ya,Tidak,Ya,Tidak,Ya,38.6°C,150,Penyakit Hemoragik Virus Kelinci
+Domba,5,Jantan,85.0,Penurunan Berat Badan,Reduced Wool Production,Lesu,Kehilangan Nafsu Makan,7 hari,Ya,Ya,Tidak,Tidak,Ya,Tidak,Tidak,Tidak,Ya,39.2°C,79,Penyakit Mulut dan Kuku
+Kambing,7,Betina,65.0,Diare,Dehidrasi,Lesu,Kehilangan Nafsu Makan,5 hari,Ya,Ya,Tidak,Ya,Tidak,Ya,Tidak,Ya,Tidak,39.3°C,80,Koksidiosis
+Babi,2,Jantan,115.0,Batuk,Keluar Lendir Hidung,Lesu,Demam,4 hari,Ya,Tidak,Tidak,Ya,Ya,Tidak,Ya,Tidak,Ya,39.8°C,85,Pleuropneumonia Actinobacillus
+Anjing,8,Betina,8.0,Lesu,Muntah,Diare,Kehilangan Nafsu Makan,5 hari,Ya,Tidak,Ya,Ya,Tidak,Tidak,Tidak,Tidak,Ya,39.0°C,130,Hepatitis Anjing
+Kucing,4,Jantan,4.3,Keluar Lendir Hidung,Keluar Cairan Mata,Bersin,Lesu,3 hari,Ya,Tidak,Ya,Tidak,Tidak,Ya,Tidak,Ya,Ya,38.7°C,143,Rinotrakeitis Kucing
+Kuda,13,Betina,650.0,Pincang,Sendi Bengkak,Demam,Penurunan Berat Badan,8 hari,Tidak,Ya,Tidak,Ya,Ya,Tidak,Tidak,Tidak,Ya,39.5°C,74,Equine Infectious Anemia
+Sapi,9,Jantan,600.0,Kesulitan Bernafas,Keluar Lendir Hidung,Batuk,Demam,6 hari,Ya,Tidak,Ya,Ya,Tidak,Ya,Tidak,Tidak,Ya,39.6°C,80,Penyakit Pernapasan Sapi
+Kelinci,3,Jantan,1.9,Bersin,Keluar Cairan Mata,Keluar Lendir Hidung,Lesu,2 hari,Tidak,Ya,Tidak,Ya,Ya,Ya,Ya,Ya,Tidak,38.4°C,160,Infeksi Saluran Pernapasan
+Domba,6,Betina,78.0,Penurunan Berat Badan,Lesu,Kehilangan Nafsu Makan,Sendi Bengkak,9 hari,Ya,Ya,Tidak,Ya,Tidak,Tidak,Ya,Ya,Tidak,39.7°C,76,Scrapie
+Kambing,3,Jantan,75.0,Keluar Lendir Hidung,Demam,Penurunan Berat Badan,Kehilangan Nafsu Makan,6 hari,Tidak,Ya,Ya,Tidak,Ya,Ya,Tidak,Ya,Ya,39.2°C,82,Penyakit Pernapasan Kambing
+Babi,4,Betina,120.0,Muntah,Diare,Kehilangan Nafsu Makan,Demam,5 hari,Ya,Ya,Tidak,Ya,Ya,Tidak,Ya,Tidak,Tidak,39.6°C,84,Disentri Babi
+Anjing,6,Jantan,13.0,Batuk,Kesulitan Bernafas,Keluar Lendir Hidung,Demam,4 hari,Ya,Tidak,Tidak,Ya,Ya,Ya,Tidak,Ya,Tidak,39.4°C,127,Batuk Kennel
+Kucing,5,Betina,4.7,Keluar Cairan Mata,Keluar Lendir Hidung,Bersin,Lesu,5 hari,Ya,Ya,Tidak,Tidak,Tidak,Ya,Tidak,Ya,Ya,38.6°C,145,Infeksi Pernapasan Kucing
+Kuda,11,Jantan,300.0,Pincang,Sendi Bengkak,Kehilangan Nafsu Makan,Penurunan Berat Badan,7 hari,Ya,Ya,Tidak,Ya,Tidak,Ya,Tidak,Ya,Tidak,39.6°C,80,Osteoartritis Kuda
+Sapi,7,Betina,650.0,Batuk,Keluar Lendir Hidung,Kehilangan Nafsu Makan,Demam,5 hari,Ya,Tidak,Tidak,Ya,Ya,Tidak,Tidak,Ya,Tidak,39.4°C,79,Tuberkulosis Sapi
+Kelinci,2,Betina,1.4,Bersin,Keluar Lendir Hidung,Lesu,Kehilangan Nafsu Makan,3 hari,Ya,Tidak,Ya,Ya,Tidak,Ya,Tidak,Tidak,Ya,38.8°C,155,Infeksi Saluran Pernapasan Atas
+Domba,8,Jantan,95.0,Lesu,Sendi Bengkak,Demam,Kehilangan Nafsu Makan,6 hari,Tidak,Ya,Tidak,Ya,Ya,Tidak,Ya,Tidak,Ya,39.9°C,75,Busuk Kuku
+Kambing,5,Betina,72.0,Diare,Kehilangan Nafsu Makan,Lesu,Dehidrasi,7 hari,Ya,Tidak,Ya,Tidak,Tidak,Ya,Tidak,Ya,Tidak,39.2°C,82,Infeksi Gastrointestinal
+Babi,3,Jantan,110.0,Demam,Batuk,Keluar Lendir Hidung,Penurunan Berat Badan,6 hari,Tidak,Ya,Ya,Tidak,Ya,Tidak,Ya,Tidak,Ya,39.8°C,87,Pleuropneumonia Actinobacillus
+Anjing,7,Jantan,30.0,Muntah,Diare,Kehilangan Nafsu Makan,Lesu,6 hari,Ya,Tidak,Ya,Ya,Tidak,Tidak,Ya,Tidak,Tidak,39.5°C,118,Parvovirus Anjing
+Kucing,4,Jantan,5.2,Muntah,Diare,Kehilangan Nafsu Makan,Lesu,5 hari,Ya,Ya,Ya,Tidak,Ya,Ya,Tidak,Tidak,Tidak,39.1°C,148,Peritonitis Infeksius Kucing
+Kuda,15,Betina,700.0,Sendi Bengkak,Pincang,Penurunan Berat Badan,Lesu,8 hari,Tidak,Ya,Tidak,Ya,Ya,Tidak,Ya,Ya,Ya,39.5°C,77,Sindrom Metabolik Kuda
+Sapi,8,Jantan,580.0,Kehilangan Nafsu Makan,Penurunan Berat Badan,Demam,Lesu,6 hari,Ya,Ya,Ya,Ya,Tidak,Ya,Tidak,Tidak,Ya,39.3°C,80,Penyakit Johne Sapi
+Kelinci,1,Betina,1.2,Keluar Lendir Hidung,Lesu,Kehilangan Nafsu Makan,Bersin,2 hari,Ya,Tidak,Ya,Tidak,Ya,Tidak,Ya,Tidak,Tidak,38.7°C,165,Pasteurelosis
+Anjing,5,Betina,42.0,Lesu,Muntah,Kehilangan Nafsu Makan,Batuk,4 hari,Ya,Ya,Tidak,Ya,Tidak,Ya,Ya,Tidak,Tidak,39.2°C,120,Parvovirus Anjing
+Kucing,3,Jantan,5.5,Keluar Lendir Hidung,Batuk,Bersin,Lesu,5 hari,Ya,Ya,Tidak,Ya,Tidak,Ya,Tidak,Tidak,Ya,38.9°C,140,Calicivirus Kucing
+Kuda,7,Betina,480.0,Pincang,Kehilangan Nafsu Makan,Swollen Legs,Demam,6 hari,Tidak,Ya,Ya,Tidak,Ya,Ya,Tidak,Ya,Tidak,39.6°C,75,Influenza Kuda
+Sapi,6,Jantan,550.0,Batuk,Keluar Lendir Hidung,Demam,Penurunan Berat Badan,7 hari,Ya,Tidak,Ya,Ya,Ya,Tidak,Ya,Tidak,Tidak,39.4°C,82,Penyakit Pernapasan Sapi
+Kelinci,2,Jantan,1.6,Keluar Lendir Hidung,Bersin,Lesu,Kehilangan Nafsu Makan,3 hari,Ya,Ya,Tidak,Ya,Tidak,Tidak,Ya,Tidak,Tidak,38.5°C,150,Penyakit Hemoragik Kelinci
+Domba,4,Betina,85.0,Pincang,Sendi Bengkak,Kehilangan Nafsu Makan,Diare,5 hari,Ya,Tidak,Tidak,Ya,Tidak,Tidak,Ya,Ya,Tidak,39.3°C,76,Virus Lidah Biru
+Kambing,5,Jantan,72.0,Muntah,Diare,Demam,Kehilangan Nafsu Makan,6 hari,Ya,Ya,Tidak,Ya,Tidak,Tidak,Ya,Ya,Tidak,39.0°C,81,Artritis Ensefalitis Kaprin
+Babi,3,Betina,100.0,Batuk,Keluar Lendir Hidung,Kehilangan Nafsu Makan,Lesu,4 hari,Ya,Tidak,Ya,Tidak,Ya,Ya,Tidak,Tidak,Ya,39.5°C,88,Influenza Babi
+Anjing,6,Jantan,40.0,Muntah,Lesu,Kehilangan Nafsu Makan,Batuk,5 hari,Ya,Ya,Tidak,Ya,Tidak,Tidak,Ya,Ya,Tidak,39.3°C,119,Distemper Anjing
+Kucing,4,Betina,4.2,Keluar Lendir Hidung,Lesu,Kehilangan Nafsu Makan,Demam,6 hari,Ya,Tidak,Ya,Ya,Tidak,Ya,Tidak,Ya,Ya,38.8°C,145,Virus Leukemia Kucing
+Kuda,9,Jantan,530.0,Pincang,Batuk,Kehilangan Nafsu Makan,Swollen Legs,7 hari,Tidak,Ya,Tidak,Ya,Ya,Tidak,Tidak,Ya,Tidak,39.7°C,77,Equine Infectious Anemia
+Sapi,5,Betina,620.0,Lesu,Batuk,Keluar Lendir Hidung,Demam,4 hari,Ya,Ya,Ya,Tidak,Ya,Tidak,Tidak,Ya,Ya,39.6°C,81,Tuberkulosis Sapi
+Kelinci,1,Betina,1.2,Keluar Lendir Hidung,Kehilangan Nafsu Makan,Lesu,Bersin,2 hari,Ya,Ya,Ya,Ya,Tidak,Tidak,Ya,Tidak,Tidak,38.7°C,155,Miksomatosis
+Domba,6,Jantan,90.0,Sendi Bengkak,Kehilangan Nafsu Makan,Lesu,Batuk,5 hari,Ya,Ya,Tidak,Ya,Tidak,Ya,Tidak,Ya,Tidak,39.4°C,78,Limfadenitis Kaseosa
+Kambing,3,Betina,70.0,Demam,Muntah,Diare,Kehilangan Nafsu Makan,5 hari,Ya,Tidak,Ya,Tidak,Ya,Ya,Tidak,Ya,Ya,39.5°C,80,Pleuropneumonia Kambing
+Babi,5,Jantan,120.0,Batuk,Keluar Lendir Hidung,Kehilangan Nafsu Makan,Lesu,6 hari,Ya,Ya,Tidak,Tidak,Ya,Tidak,Ya,Ya,Tidak,39.2°C,85,Pleuropneumonia Actinobacillus
+Anjing,4,Betina,35.0,Lesu,Muntah,Kehilangan Nafsu Makan,Batuk,3 hari,Ya,Ya,Tidak,Ya,Tidak,Ya,Tidak,Tidak,Tidak,39.0°C,125,Leptospirosis
+Kucing,5,Jantan,5.0,Keluar Cairan Mata,Keluar Lendir Hidung,Bersin,Lesu,4 hari,Ya,Ya,Tidak,Ya,Tidak,Ya,Ya,Tidak,Ya,38.9°C,148,Herpesvirus Kucing
+Kuda,12,Jantan,550.0,Pincang,Kehilangan Nafsu Makan,Swollen Legs,Demam,5 hari,Tidak,Ya,Ya,Tidak,Ya,Tidak,Ya,Tidak,Ya,39.6°C,80,Laminitis Kuda
+Sapi,7,Betina,580.0,Kehilangan Nafsu Makan,Demam,Batuk,Lesu,6 hari,Ya,Tidak,Ya,Ya,Tidak,Ya,Ya,Ya,Ya,39.5°C,80,Penyakit Johne Sapi
+Kelinci,3,Jantan,1.3,Keluar Lendir Hidung,Kehilangan Nafsu Makan,Lesu,Demam,4 hari,Ya,Ya,Tidak,Tidak,Ya,Tidak,Ya,Ya,Tidak,38.6°C,160,Sifilis Kelinci
+Domba,5,Jantan,90.0,Lesu,Keluar Lendir Hidung,Sendi Bengkak,Kehilangan Nafsu Makan,5 hari,Ya,Ya,Tidak,Ya,Tidak,Ya,Tidak,Ya,Ya,39.7°C,74,Klamidia pada Domba
+Kambing,6,Betina,60.0,Muntah,Demam,Kehilangan Nafsu Makan,Lesu,5 hari,Ya,Tidak,Ya,Ya,Tidak,Ya,Tidak,Tidak,Tidak,39.3°C,82,Penyakit Pernapasan Kambing
+Babi,3,Jantan,105.0,Muntah,Demam,Kehilangan Nafsu Makan,Lesu,5 hari,Ya,Ya,Tidak,Ya,Ya,Tidak,Ya,Tidak,Ya,39.0°C,84,Actinobacillus Suis
+Anjing,5,Betina,20.0,Muntah,Lesu,Kehilangan Nafsu Makan,Demam,4 hari,Ya,Ya,Tidak,Tidak,Ya,Tidak,Tidak,Ya,Tidak,39.2°C,123,Leptospirosis Anjing
+Kucing,4,Jantan,4.8,Batuk,Kehilangan Nafsu Makan,Demam,Lesu,5 hari,Ya,Tidak,Ya,Tidak,Tidak,Ya,Tidak,Ya,Ya,38.8°C,147,Klamidia Kucing
+Kuda,6,Betina,500.0,Pincang,Kehilangan Nafsu Makan,Swollen Legs,Batuk,6 hari,Tidak,Ya,Ya,Ya,Tidak,Tidak,Ya,Ya,Tidak,39.4°C,79,Virus West Nile Kuda
+Sapi,5,Betina,500.0,Batuk,Keluar Lendir Hidung,Lesu,Demam,5 hari,Ya,Ya,Ya,Tidak,Ya,Tidak,Tidak,Ya,Ya,39.5°C,81,Diare Virus Sapi
+Kelinci,2,Jantan,1.5,Bersin,Keluar Lendir Hidung,Kehilangan Nafsu Makan,Demam,3 hari,Ya,Tidak,Tidak,Ya,Ya,Tidak,Ya,Tidak,Tidak,38.9°C,153,Miksomatosis
+Anjing,4,Betina,45.0,Lesu,Kehilangan Nafsu Makan,Batuk,Demam,5 hari,Ya,Tidak,Ya,Ya,Tidak,Ya,Ya,Tidak,Tidak,39.4°C,120,Parvovirus Anjing
+Kucing,3,Jantan,7.5,Lesu,Muntah,Kehilangan Nafsu Makan,Diare,4 hari,Ya,Ya,Tidak,Ya,Ya,Ya,Tidak,Ya,Tidak,39.1°C,148,Peritonitis Infeksius Kucing
+Kuda,9,Jantan,850.0,Pincang,Batuk,Kehilangan Nafsu Makan,Demam,6 hari,Tidak,Ya,Ya,Tidak,Ya,Tidak,Ya,Ya,Tidak,39.2°C,79,Rinoneumonitis Kuda
+Sapi,5,Betina,620.0,Batuk,Demam,Kehilangan Nafsu Makan,Lesu,7 hari,Ya,Tidak,Ya,Ya,Tidak,Ya,Ya,Tidak,Ya,39.3°C,82,Virus Sinsitial Pernapasan Sapi
+Kelinci,2,Betina,1.3,Bersin,Keluar Lendir Hidung,Kehilangan Nafsu Makan,Demam,3 hari,Ya,Tidak,Ya,Ya,Tidak,Tidak,Ya,Ya,Tidak,38.8°C,155,Sifilis Kelinci
+Domba,4,Jantan,70.0,Batuk,Lesu,Kehilangan Nafsu Makan,Sendi Bengkak,5 hari,Ya,Tidak,Ya,Ya,Tidak,Ya,Tidak,Ya,Ya,39.0°C,75,Scrapie
+Kambing,5,Betina,65.0,Muntah,Demam,Diare,Kehilangan Nafsu Makan,6 hari,Ya,Ya,Tidak,Tidak,Ya,Ya,Tidak,Ya,Ya,39.4°C,80,Pleuropneumonia Kambing
+Babi,3,Jantan,100.0,Batuk,Lesu,Keluar Lendir Hidung,Kehilangan Nafsu Makan,4 hari,Ya,Ya,Tidak,Ya,Ya,Tidak,Ya,Tidak,Tidak,39.6°C,85,Diare Epidemik Babi
+Anjing,6,Jantan,25.0,Lesu,Kehilangan Nafsu Makan,Batuk,Demam,5 hari,Ya,Ya,Tidak,Ya,Tidak,Tidak,Ya,Ya,Tidak,39.3°C,110,Distemper Anjing
+Kucing,3,Betina,4.8,Keluar Lendir Hidung,Batuk,Kehilangan Nafsu Makan,Lesu,4 hari,Ya,Tidak,Ya,Tidak,Ya,Tidak,Ya,Ya,Tidak,38.9°C,145,Virus Leukemia Kucing
+Kuda,8,Betina,300.0,Pincang,Kehilangan Nafsu Makan,Swollen Legs,Demam,5 hari,Ya,Ya,Tidak,Ya,Tidak,Ya,Ya,Tidak,Tidak,39.5°C,76,Herpesvirus Kuda
+Sapi,7,Jantan,590.0,Batuk,Lesu,Kehilangan Nafsu Makan,Swollen Legs,6 hari,Ya,Tidak,Tidak,Ya,Ya,Ya,Ya,Tidak,Ya,39.1°C,78,Tuberkulosis Sapi
+Kelinci,1,Betina,1.1,Bersin,Kehilangan Nafsu Makan,Demam,Keluar Lendir Hidung,2 hari,Ya,Ya,Tidak,Ya,Tidak,Tidak,Ya,Tidak,Tidak,38.7°C,160,Miksomatosis
+Domba,6,Jantan,95.0,Sendi Bengkak,Kehilangan Nafsu Makan,Batuk,Lesu,5 hari,Ya,Tidak,Ya,Tidak,Ya,Tidak,Tidak,Ya,Tidak,39.4°C,74,Klamidia pada Domba
+Kambing,2,Betina,55.0,Muntah,Demam,Kehilangan Nafsu Makan,Lesu,4 hari,Ya,Ya,Tidak,Ya,Tidak,Tidak,Ya,Tidak,Ya,39.2°C,82,Artritis Ensefalitis Kaprin
+Babi,6,Betina,115.0,Batuk,Keluar Lendir Hidung,Kehilangan Nafsu Makan,Lesu,7 hari,Ya,Tidak,Ya,Ya,Ya,Tidak,Ya,Tidak,Tidak,39.7°C,83,Influenza Babi
+Anjing,7,Jantan,33.0,Lesu,Muntah,Kehilangan Nafsu Makan,Demam,5 hari,Ya,Ya,Ya,Tidak,Ya,Ya,Tidak,Tidak,Ya,39.2°C,118,Leptospirosis Anjing
+Kucing,4,Jantan,4.3,Keluar Lendir Hidung,Batuk,Kehilangan Nafsu Makan,Lesu,3 hari,Ya,Tidak,Tidak,Ya,Tidak,Ya,Ya,Tidak,Ya,39.0°C,150,Calicivirus Kucing
+Kuda,5,Betina,400.0,Pincang,Kehilangan Nafsu Makan,Swollen Legs,Demam,4 hari,Tidak,Ya,Ya,Tidak,Ya,Tidak,Ya,Ya,Tidak,39.4°C,78,Influenza Kuda
+Sapi,6,Betina,620.0,Batuk,Demam,Kehilangan Nafsu Makan,Lesu,5 hari,Ya,Tidak,Ya,Tidak,Ya,Ya,Ya,Ya,Tidak,39.2°C,80,Penyakit Pernapasan Sapi
+Kelinci,2,Jantan,1.2,Bersin,Kehilangan Nafsu Makan,Demam,Keluar Lendir Hidung,4 hari,Ya,Ya,Tidak,Ya,Tidak,Tidak,Ya,Tidak,Ya,38.8°C,154,Penyakit Hemoragik Kelinci
+Domba,3,Jantan,75.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,5 hari,Ya,Tidak,Ya,Ya,Ya,Tidak,Ya,Tidak,Tidak,39.1°C,77,Penyakit Mulut dan Kuku
+Kambing,5,Betina,60.0,Muntah,Diare,Kehilangan Nafsu Makan,Demam,4 hari,Ya,Ya,Ya,Tidak,Ya,Tidak,Ya,Tidak,Tidak,39.6°C,81,Pleuropneumonia Kambing
+Babi,4,Jantan,95.0,Batuk,Kehilangan Nafsu Makan,Lesu,Keluar Lendir Hidung,3 hari,Ya,Tidak,Tidak,Ya,Ya,Ya,Ya,Ya,Tidak,39.2°C,88,Sindrom Reproduksi dan Pernapasan Babi
+Anjing,5,Betina,18.0,Lesu,Batuk,Kehilangan Nafsu Makan,Demam,5 hari,Ya,Tidak,Tidak,Ya,Ya,Ya,Tidak,Ya,Tidak,39.3°C,115,Batuk Kennel
+Kucing,6,Jantan,5.5,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,4 hari,Ya,Tidak,Tidak,Ya,Tidak,Tidak,Ya,Ya,Tidak,39.0°C,149,Peritonitis Infeksius Kucing
+Kuda,8,Betina,550.0,Pincang,Kehilangan Nafsu Makan,Swollen Legs,Demam,5 hari,Ya,Tidak,Ya,Tidak,Ya,Ya,Tidak,Ya,Ya,39.2°C,77,Herpesvirus Kuda
+Sapi,4,Jantan,630.0,Batuk,Lesu,Kehilangan Nafsu Makan,Swollen Legs,6 hari,Ya,Tidak,Ya,Ya,Tidak,Ya,Ya,Ya,Tidak,39.1°C,79,Tuberkulosis Sapi
+Anjing,4,Betina,15.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,4 hari,Ya,Tidak,Ya,Ya,Tidak,Tidak,Ya,Ya,Tidak,39.2°C,125,Influenza Anjing
+Kucing,3,Jantan,5.0,Keluar Lendir Hidung,Batuk,Kehilangan Nafsu Makan,Demam,5 hari,Ya,Ya,Tidak,Ya,Ya,Tidak,Ya,Tidak,Ya,39.0°C,140,Calicivirus Kucing
+Kuda,7,Betina,500.0,Pincang,Kehilangan Nafsu Makan,Swollen Legs,Demam,6 hari,Tidak,Ya,Ya,Ya,Tidak,Ya,Ya,Tidak,Tidak,39.3°C,85,Mieloensefalitis Protozoa Kuda
+Sapi,5,Jantan,560.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,5 hari,Ya,Tidak,Ya,Ya,Ya,Ya,Ya,Tidak,Ya,39.1°C,79,Tuberkulosis Sapi
+Kelinci,2,Jantan,1.2,Bersin,Kehilangan Nafsu Makan,Keluar Lendir Hidung,Demam,3 hari,Ya,Tidak,Ya,Ya,Tidak,Tidak,Ya,Tidak,Ya,38.7°C,155,Penyakit Hemoragik Kelinci
+Domba,5,Betina,90.0,Batuk,Lesu,Kehilangan Nafsu Makan,Demam,4 hari,Ya,Tidak,Ya,Ya,Ya,Ya,Tidak,Ya,Tidak,39.2°C,72,Penyakit Mulut dan Kuku
+Kambing,6,Jantan,70.0,Muntah,Diare,Kehilangan Nafsu Makan,Demam,5 hari,Ya,Ya,Tidak,Ya,Tidak,Ya,Ya,Tidak,Tidak,39.4°C,80,Artritis Ensefalitis Kaprin
+Babi,4,Betina,105.0,Batuk,Kehilangan Nafsu Makan,Keluar Lendir Hidung,Lesu,3 hari,Ya,Tidak,Ya,Tidak,Ya,Tidak,Ya,Tidak,Ya,39.5°C,83,Kompleks Penyakit Pernapasan Babi
+Anjing,3,Jantan,6.0,Lesu,Muntah,Kehilangan Nafsu Makan,Demam,2 hari,Ya,Ya,Tidak,Ya,Ya,Tidak,Ya,Ya,Tidak,39.0°C,118,Parvovirus Anjing
+Kucing,5,Betina,4.7,Keluar Lendir Hidung,Batuk,Kehilangan Nafsu Makan,Demam,6 hari,Ya,Ya,Ya,Ya,Tidak,Ya,Tidak,Ya,Ya,38.9°C,150,Peritonitis Infeksius Kucing
+Kuda,8,Jantan,550.0,Pincang,Kehilangan Nafsu Makan,Swollen Legs,Demam,7 hari,Tidak,Ya,Ya,Ya,Ya,Tidak,Tidak,Ya,Tidak,39.1°C,87,Influenza Kuda
+Sapi,4,Jantan,650.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,6 hari,Ya,Tidak,Ya,Ya,Ya,Ya,Tidak,Tidak,Ya,39.3°C,78,Virus Sinsitial Pernapasan Sapi
+Kelinci,1,Betina,1.0,Bersin,Kehilangan Nafsu Makan,Keluar Lendir Hidung,Demam,3 hari,Ya,Tidak,Ya,Ya,Ya,Tidak,Ya,Tidak,Tidak,38.8°C,158,Miksomatosis
+Domba,5,Jantan,80.0,Sendi Bengkak,Batuk,Kehilangan Nafsu Makan,Lesu,4 hari,Ya,Tidak,Ya,Ya,Ya,Ya,Tidak,Ya,Ya,39.4°C,75,Scrapie
+Kambing,6,Betina,60.0,Muntah,Kehilangan Nafsu Makan,Lesu,Demam,5 hari,Ya,Ya,Ya,Ya,Tidak,Tidak,Ya,Tidak,Ya,39.6°C,83,Pleuropneumonia Kambing
+Babi,4,Jantan,100.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,5 hari,Ya,Ya,Ya,Ya,Ya,Tidak,Ya,Tidak,Ya,39.2°C,87,Diare Epidemik Babi
+Anjing,5,Betina,40.0,Lesu,Muntah,Kehilangan Nafsu Makan,Demam,4 hari,Ya,Tidak,Ya,Ya,Ya,Ya,Tidak,Ya,Tidak,39.3°C,122,Distemper Anjing
+Kucing,3,Jantan,4.6,Keluar Lendir Hidung,Batuk,Kehilangan Nafsu Makan,Demam,4 hari,Ya,Tidak,Ya,Tidak,Ya,Ya,Ya,Tidak,Tidak,39.0°C,142,Virus Leukemia Kucing
+Kuda,6,Betina,600.0,Pincang,Swollen Legs,Kehilangan Nafsu Makan,Demam,6 hari,Tidak,Ya,Ya,Ya,Tidak,Tidak,Ya,Ya,Ya,39.4°C,82,Rinoneumonitis Kuda
+Sapi,3,Jantan,450.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,5 hari,Ya,Ya,Tidak,Ya,Ya,Tidak,Ya,Ya,Ya,39.3°C,79,Diare Virus Sapi
+Kelinci,1,Jantan,1.0,Bersin,Kehilangan Nafsu Makan,Keluar Lendir Hidung,Demam,3 hari,Ya,Ya,Tidak,Ya,Tidak,Ya,Ya,Tidak,Tidak,38.9°C,153,Sifilis Kelinci
+Domba,4,Betina,95.0,Sendi Bengkak,Batuk,Kehilangan Nafsu Makan,Lesu,5 hari,Ya,Tidak,Tidak,Ya,Ya,Ya,Tidak,Ya,Tidak,39.1°C,76,Penyakit Lidah Biru
+Kambing,5,Jantan,72.0,Muntah,Kehilangan Nafsu Makan,Lesu,Demam,6 hari,Ya,Ya,Tidak,Ya,Tidak,Ya,Ya,Tidak,Ya,39.5°C,80,Pleuropneumonia Kambing
+Babi,3,Betina,105.0,Batuk,Kehilangan Nafsu Makan,Lesu,Keluar Lendir Hidung,5 hari,Ya,Ya,Tidak,Ya,Ya,Tidak,Ya,Tidak,Ya,39.2°C,86,Kompleks Penyakit Pernapasan Babi
+Anjing,7,Jantan,30.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,5 hari,Ya,Ya,Ya,Ya,Ya,Tidak,Ya,Tidak,Tidak,39.0°C,130,Distemper Anjing
+Kucing,6,Betina,4.2,Keluar Lendir Hidung,Kehilangan Nafsu Makan,Lesu,Demam,5 hari,Ya,Ya,Tidak,Ya,Tidak,Tidak,Ya,Ya,Tidak,39.1°C,148,Coronavirus Kucing
+Kuda,6,Jantan,650.0,Pincang,Swollen Legs,Kehilangan Nafsu Makan,Demam,6 hari,Ya,Tidak,Ya,Tidak,Ya,Ya,Ya,Tidak,Ya,39.4°C,80,Influenza Kuda
+Sapi,3,Jantan,700.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,5 hari,Ya,Ya,Tidak,Tidak,Ya,Ya,Tidak,Ya,Ya,39.2°C,77,Tuberkulosis Sapi
+Anjing,3,Betina,20.0,Muntah,Diare,Lesu,Demam,4 hari,Ya,Tidak,Ya,Tidak,Ya,Ya,Ya,Tidak,Ya,39.0°C,120,Parvovirus
+Kucing,5,Jantan,8.5,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,3 hari,Ya,Ya,Tidak,Ya,Ya,Tidak,Ya,Tidak,Ya,39.1°C,145,Infeksi Saluran Pernapasan Atas Kucing
+Kuda,7,Betina,850.0,Pincang,Swollen Legs,Kehilangan Nafsu Makan,Demam,6 hari,Ya,Tidak,Ya,Ya,Ya,Tidak,Ya,Tidak,Ya,39.2°C,82,Herpesvirus Kuda
+Sapi,4,Jantan,700.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,5 hari,Ya,Ya,Tidak,Tidak,Ya,Tidak,Ya,Tidak,Ya,39.3°C,77,Penyakit Pernapasan Sapi
+Kelinci,2,Jantan,1.8,Bersin,Keluar Lendir Hidung,Kehilangan Nafsu Makan,Demam,4 hari,Ya,Ya,Tidak,Ya,Tidak,Ya,Tidak,Tidak,Ya,39.0°C,150,Penyakit Hemoragik Virus Kelinci
+Domba,6,Betina,80.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,5 hari,Ya,Tidak,Ya,Ya,Tidak,Ya,Ya,Tidak,Tidak,39.3°C,74,Ektima Menular
+Kambing,4,Jantan,72.0,Muntah,Kehilangan Nafsu Makan,Lesu,Demam,6 hari,Ya,Ya,Tidak,Ya,Ya,Tidak,Ya,Tidak,Ya,39.6°C,80,Pneumonia
+Babi,5,Betina,110.0,Batuk,Kehilangan Nafsu Makan,Keluar Lendir Hidung,Demam,5 hari,Ya,Tidak,Ya,Ya,Ya,Tidak,Ya,Tidak,Ya,39.2°C,85,Influenza Babi
+Anjing,4,Jantan,32.0,Lesu,Muntah,Kehilangan Nafsu Makan,Demam,3 hari,Ya,Ya,Tidak,Ya,Ya,Ya,Ya,Tidak,Tidak,39.1°C,130,Hepatitis Anjing
+Kucing,3,Betina,5.0,Keluar Lendir Hidung,Kehilangan Nafsu Makan,Batuk,Demam,4 hari,Ya,Tidak,Ya,Tidak,Ya,Ya,Tidak,Ya,Ya,39.0°C,155,Rinotrakeitis Kucing
+Kuda,8,Jantan,550.0,Pincang,Swollen Legs,Kehilangan Nafsu Makan,Demam,7 hari,Ya,Tidak,Ya,Ya,Tidak,Ya,Ya,Tidak,Ya,39.4°C,88,Ensefalomielitis Kuda
+Sapi,5,Betina,450.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,4 hari,Ya,Tidak,Ya,Tidak,Ya,Ya,Ya,Ya,Tidak,39.0°C,78,Parainfluenza Sapi
+Kelinci,3,Jantan,1.4,Bersin,Keluar Lendir Hidung,Kehilangan Nafsu Makan,Demam,4 hari,Ya,Ya,Tidak,Ya,Ya,Ya,Tidak,Ya,Tidak,38.9°C,148,Pasteurelosis
+Domba,4,Jantan,95.0,Sendi Bengkak,Batuk,Kehilangan Nafsu Makan,Lesu,5 hari,Ya,Ya,Tidak,Ya,Tidak,Ya,Ya,Tidak,Tidak,39.2°C,76,Virus Lidah Biru
+Kambing,6,Betina,75.0,Muntah,Kehilangan Nafsu Makan,Lesu,Demam,6 hari,Ya,Ya,Tidak,Ya,Ya,Tidak,Ya,Ya,Ya,39.7°C,82,Artritis Virus Kambing
+Babi,4,Jantan,120.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,6 hari,Ya,Tidak,Ya,Ya,Ya,Ya,Tidak,Ya,Tidak,39.1°C,86,Pleuropneumonia Actinobacillus
+Anjing,3,Betina,25.0,Lesu,Muntah,Kehilangan Nafsu Makan,Demam,4 hari,Ya,Tidak,Ya,Ya,Ya,Ya,Ya,Tidak,Ya,39.2°C,125,Leptospirosis Anjing
+Kucing,2,Jantan,6.0,Keluar Lendir Hidung,Kehilangan Nafsu Makan,Batuk,Demam,3 hari,Ya,Ya,Ya,Ya,Tidak,Ya,Ya,Tidak,Ya,39.0°C,145,Asma Kucing
+Kuda,6,Betina,650.0,Pincang,Swollen Legs,Kehilangan Nafsu Makan,Demam,6 hari,Ya,Tidak,Ya,Tidak,Ya,Tidak,Ya,Ya,Tidak,39.3°C,84,Influenza Kuda
+Sapi,4,Jantan,680.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,6 hari,Ya,Ya,Tidak,Tidak,Ya,Tidak,Ya,Ya,Ya,39.4°C,77,Tuberkulosis Sapi
+Kelinci,2,Betina,1.1,Bersin,Kehilangan Nafsu Makan,Keluar Lendir Hidung,Demam,3 hari,Ya,Tidak,Ya,Ya,Tidak,Ya,Ya,Tidak,Ya,38.8°C,150,Calicivirus Kelinci
+Domba,5,Betina,90.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,4 hari,Ya,Tidak,Ya,Ya,Tidak,Ya,Ya,Ya,Tidak,39.1°C,75,Maedi-Visna
+Kambing,5,Jantan,80.0,Muntah,Diare,Kehilangan Nafsu Makan,Demam,4 hari,Ya,Ya,Tidak,Ya,Tidak,Ya,Ya,Ya,Ya,39.5°C,80,Limfadenitis Kaseosa
+Babi,4,Betina,130.0,Batuk,Kehilangan Nafsu Makan,Lesu,Keluar Lendir Hidung,6 hari,Ya,Ya,Tidak,Ya,Tidak,Ya,Tidak,Ya,Ya,39.2°C,88,Erisipelas Babi
+Anjing,5,Jantan,25.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,5 hari,Ya,Ya,Tidak,Tidak,Ya,Ya,Ya,Tidak,Ya,39.2°C,120,Batuk Kennel
+Kucing,3,Betina,6.0,Keluar Lendir Hidung,Kehilangan Nafsu Makan,Batuk,Demam,4 hari,Ya,Ya,Ya,Ya,Tidak,Ya,Ya,Tidak,Ya,39.1°C,145,Herpesvirus Kucing
+Kuda,9,Jantan,550.0,Pincang,Kehilangan Nafsu Makan,Swollen Legs,Demam,7 hari,Ya,Ya,Tidak,Ya,Tidak,Ya,Ya,Ya,Ya,39.4°C,80,Equine Infectious Anemia
+Sapi,6,Betina,500.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,5 hari,Ya,Tidak,Ya,Tidak,Ya,Ya,Ya,Tidak,Ya,39.2°C,75,Diare Virus Sapi
+Kelinci,3,Jantan,2.0,Bersin,Keluar Lendir Hidung,Kehilangan Nafsu Makan,Demam,4 hari,Ya,Ya,Tidak,Ya,Ya,Ya,Ya,Tidak,Tidak,39.0°C,155,Miksomatosis
+Domba,4,Jantan,95.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,6 hari,Ya,Tidak,Ya,Tidak,Ya,Ya,Tidak,Ya,Tidak,39.3°C,77,Penyakit Lidah Biru
+Kambing,5,Betina,85.0,Muntah,Diare,Lesu,Demam,6 hari,Ya,Ya,Tidak,Ya,Tidak,Ya,Ya,Ya,Tidak,39.6°C,85,Artritis Ensefalitis Kaprin
+Babi,6,Jantan,120.0,Batuk,Kehilangan Nafsu Makan,Keluar Lendir Hidung,Demam,5 hari,Ya,Tidak,Ya,Ya,Tidak,Tidak,Ya,Ya,Tidak,39.1°C,95,Pleuropneumonia Actinobacillus
+Anjing,4,Betina,5.0,Lesu,Muntah,Kehilangan Nafsu Makan,Demam,3 hari,Ya,Ya,Tidak,Ya,Ya,Ya,Ya,Tidak,Tidak,39.1°C,110,Parvovirus Anjing
+Kucing,7,Jantan,10.2,Keluar Lendir Hidung,Kehilangan Nafsu Makan,Batuk,Demam,5 hari,Ya,Ya,Ya,Ya,Tidak,Tidak,Ya,Ya,Tidak,39.0°C,135,Asma Kucing
+Kuda,7,Betina,800.0,Pincang,Swollen Legs,Kehilangan Nafsu Makan,Demam,6 hari,Ya,Ya,Tidak,Ya,Ya,Ya,Ya,Ya,Ya,39.5°C,85,Leptospirosis Kuda
+Sapi,5,Jantan,720.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,4 hari,Ya,Ya,Tidak,Tidak,Ya,Ya,Ya,Tidak,Ya,39.3°C,82,Tuberkulosis Sapi
+Kelinci,4,Betina,1.6,Bersin,Kehilangan Nafsu Makan,Keluar Lendir Hidung,Demam,5 hari,Ya,Tidak,Ya,Tidak,Ya,Ya,Ya,Tidak,Ya,39.0°C,145,Pasteurelosis
+Domba,4,Jantan,85.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,5 hari,Ya,Ya,Tidak,Ya,Tidak,Tidak,Ya,Ya,Tidak,39.4°C,78,Abortus Menular
+Kambing,6,Betina,95.0,Muntah,Diare,Lesu,Demam,6 hari,Ya,Ya,Tidak,Ya,Tidak,Ya,Ya,Ya,Ya,39.8°C,80,Pneumonia
+Babi,3,Jantan,110.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,5 hari,Ya,Ya,Tidak,Ya,Ya,Tidak,Ya,Tidak,Ya,39.2°C,100,Disentri Babi
+Anjing,6,Betina,30.0,Lesu,Muntah,Kehilangan Nafsu Makan,Demam,4 hari,Ya,Ya,Tidak,Ya,Ya,Ya,Ya,Tidak,Ya,39.1°C,115,Leptospirosis Anjing
+Kucing,5,Jantan,4.5,Batuk,Kehilangan Nafsu Makan,Keluar Lendir Hidung,Demam,3 hari,Ya,Tidak,Ya,Tidak,Ya,Ya,Ya,Tidak,Ya,39.0°C,140,Kompleks Penyakit Pernapasan Kucing
+Kuda,5,Jantan,550.0,Pincang,Kehilangan Nafsu Makan,Swollen Legs,Demam,6 hari,Ya,Ya,Tidak,Ya,Ya,Tidak,Ya,Ya,Ya,39.2°C,80,Herpesvirus Kuda
+Sapi,4,Betina,650.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,4 hari,Ya,Ya,Ya,Tidak,Ya,Ya,Ya,Tidak,Ya,39.4°C,75,Tuberkulosis Sapi
+Kelinci,3,Jantan,2.0,Bersin,Kehilangan Nafsu Makan,Keluar Lendir Hidung,Demam,4 hari,Ya,Ya,Tidak,Ya,Ya,Ya,Ya,Tidak,Ya,39.1°C,150,Penyakit Hemoragik Kelinci
+Domba,3,Betina,75.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,5 hari,Ya,Ya,Tidak,Ya,Tidak,Tidak,Ya,Ya,Tidak,39.3°C,77,Penyakit Mulut dan Kuku
+Kambing,4,Jantan,90.0,Muntah,Diare,Lesu,Demam,5 hari,Ya,Ya,Ya,Tidak,Ya,Tidak,Ya,Tidak,Ya,39.6°C,82,Artritis Kambing
+Babi,5,Betina,130.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,6 hari,Ya,Tidak,Ya,Ya,Ya,Ya,Ya,Tidak,Ya,39.0°C,90,Flu Babi
+Anjing,4,Jantan,8.0,Lesu,Muntah,Kehilangan Nafsu Makan,Demam,3 hari,Ya,Ya,Tidak,Ya,Ya,Tidak,Ya,Tidak,Ya,39.2°C,100,Penyakit Cacing Jantung Anjing
+Kucing,6,Betina,10.0,Batuk,Kehilangan Nafsu Makan,Keluar Lendir Hidung,Demam,4 hari,Ya,Ya,Ya,Tidak,Ya,Ya,Ya,Ya,Ya,39.1°C,145,Leukemia Kucing
+Kuda,6,Jantan,550.0,Pincang,Kehilangan Nafsu Makan,Swollen Legs,Demam,5 hari,Ya,Tidak,Tidak,Ya,Ya,Ya,Ya,Ya,Ya,39.5°C,78,Influenza Kuda
+Anjing,7,Jantan,35.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,4 hari,Ya,Tidak,Tidak,Ya,Ya,Ya,Ya,Ya,Ya,39.3°C,110,Batuk Kennel
+Kucing,4,Betina,7.0,Muntah,Kehilangan Nafsu Makan,Lesu,Demam,5 hari,Ya,Ya,Tidak,Ya,Ya,Ya,Ya,Tidak,Ya,39.1°C,125,Peritonitis Infeksius Kucing
+Kuda,10,Betina,750.0,Pincang,Swollen Legs,Kehilangan Nafsu Makan,Demam,6 hari,Ya,Ya,Ya,Tidak,Tidak,Ya,Ya,Ya,Ya,39.4°C,90,Ensefalomielitis Kuda
+Sapi,8,Jantan,650.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,4 hari,Ya,Tidak,Ya,Tidak,Ya,Ya,Ya,Tidak,Ya,39.5°C,80,Kompleks Penyakit Pernapasan Sapi
+Kelinci,3,Jantan,1.8,Bersin,Keluar Lendir Hidung,Kehilangan Nafsu Makan,Demam,4 hari,Ya,Ya,Tidak,Ya,Tidak,Ya,Ya,Tidak,Ya,39.0°C,140,Penyakit Hemoragik Virus Kelinci
+Domba,5,Betina,90.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,5 hari,Ya,Ya,Tidak,Ya,Ya,Ya,Tidak,Tidak,Ya,39.3°C,78,Scrapie
+Kambing,6,Jantan,100.0,Muntah,Diare,Lesu,Demam,5 hari,Ya,Ya,Tidak,Ya,Tidak,Ya,Ya,Ya,Ya,39.6°C,85,Pneumonia
+Babi,4,Betina,120.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,6 hari,Ya,Ya,Tidak,Ya,Tidak,Ya,Ya,Ya,Ya,39.2°C,100,Demam Babi
+Anjing,5,Jantan,40.0,Muntah,Kehilangan Nafsu Makan,Lesu,Demam,5 hari,Ya,Ya,Tidak,Ya,Tidak,Ya,Ya,Tidak,Tidak,39.2°C,130,Parvovirus Anjing
+Kucing,3,Betina,8.0,Keluar Lendir Hidung,Kehilangan Nafsu Makan,Batuk,Demam,4 hari,Ya,Ya,Tidak,Ya,Tidak,Ya,Ya,Tidak,Ya,39.0°C,145,Panleukopenia Kucing
+Kuda,7,Jantan,450.0,Pincang,Swollen Legs,Kehilangan Nafsu Makan,Demam,6 hari,Ya,Ya,Ya,Tidak,Ya,Tidak,Ya,Ya,Ya,39.4°C,85,Mieloensefalitis Protozoa Kuda
+Sapi,6,Betina,550.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,5 hari,Ya,Tidak,Ya,Tidak,Ya,Ya,Tidak,Ya,Tidak,39.6°C,70,Johne's Disease
+Kelinci,2,Jantan,1.9,Bersin,Kehilangan Nafsu Makan,Keluar Lendir Hidung,Demam,3 hari,Ya,Ya,Tidak,Ya,Ya,Ya,Tidak,Tidak,Ya,39.1°C,150,Kurap
+Domba,4,Jantan,110.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,6 hari,Ya,Ya,Tidak,Ya,Tidak,Ya,Tidak,Ya,Ya,39.3°C,77,Lidah Biru
+Kambing,7,Betina,120.0,Muntah,Diare,Lesu,Demam,5 hari,Ya,Ya,Tidak,Ya,Tidak,Ya,Ya,Ya,Tidak,39.7°C,85,Penyakit Mulut dan Kuku
+Babi,5,Jantan,150.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,5 hari,Ya,Tidak,Ya,Ya,Ya,Ya,Ya,Ya,Tidak,39.3°C,92,Pleuropneumonia Actinobacillus
+Anjing,4,Betina,25.0,Lesu,Muntah,Kehilangan Nafsu Makan,Demam,4 hari,Ya,Ya,Tidak,Ya,Ya,Ya,Tidak,Ya,Ya,39.2°C,120,Distemper
+Kucing,5,Jantan,11.0,Batuk,Kehilangan Nafsu Makan,Keluar Lendir Hidung,Demam,4 hari,Ya,Ya,Tidak,Ya,Ya,Ya,Ya,Tidak,Ya,39.2°C,140,Virus Leukemia Kucing
+Kuda,6,Jantan,600.0,Pincang,Kehilangan Nafsu Makan,Swollen Legs,Demam,5 hari,Ya,Ya,Tidak,Ya,Tidak,Ya,Ya,Ya,Ya,39.5°C,88,Influenza Kuda
+Sapi,7,Betina,550.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,6 hari,Ya,Tidak,Ya,Ya,Ya,Ya,Ya,Tidak,Ya,39.4°C,75,Penyakit Johne Sapi
+Kelinci,2,Betina,1.5,Bersin,Kehilangan Nafsu Makan,Keluar Lendir Hidung,Demam,3 hari,Ya,Ya,Ya,Tidak,Ya,Tidak,Ya,Tidak,Ya,39.1°C,130,Pneumonia
+Domba,4,Jantan,95.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,6 hari,Ya,Ya,Tidak,Ya,Tidak,Ya,Ya,Tidak,Tidak,39.3°C,78,Ektima Menular
+Kambing,8,Betina,110.0,Muntah,Diare,Lesu,Demam,6 hari,Ya,Ya,Ya,Tidak,Ya,Ya,Tidak,Tidak,Ya,39.8°C,85,Artritis Ensefalitis Kaprin
+Babi,6,Betina,130.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,5 hari,Ya,Ya,Tidak,Ya,Ya,Tidak,Ya,Ya,Tidak,39.2°C,110,Influenza Babi
+Anjing,3,Jantan,6.0,Lesu,Muntah,Kehilangan Nafsu Makan,Demam,5 hari,Ya,Tidak,Tidak,Ya,Ya,Ya,Ya,Ya,Tidak,39.3°C,135,Parvovirus
+Kucing,4,Betina,7.5,Batuk,Kehilangan Nafsu Makan,Keluar Lendir Hidung,Demam,5 hari,Ya,Ya,Tidak,Ya,Ya,Tidak,Ya,Ya,Ya,39.0°C,140,Klamidiosis Kucing
+Kuda,8,Jantan,700.0,Pincang,Kehilangan Nafsu Makan,Swollen Legs,Demam,7 hari,Ya,Tidak,Ya,Ya,Ya,Tidak,Ya,Ya,Ya,39.3°C,82,Virus West Nile
+Sapi,5,Betina,600.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,5 hari,Ya,Tidak,Tidak,Ya,Ya,Ya,Tidak,Ya,Ya,39.6°C,85,Tuberkulosis Sapi
+Anjing,3,Betina,28.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,5 hari,Ya,Ya,Tidak,Ya,Ya,Ya,Ya,Tidak,Ya,39.1°C,120,Batuk Kennel
+Kucing,4,Jantan,10.0,Muntah,Kehilangan Nafsu Makan,Lesu,Demam,5 hari,Ya,Ya,Ya,Ya,Tidak,Ya,Ya,Ya,Tidak,39.0°C,140,Virus Leukemia Kucing
+Kuda,5,Betina,550.0,Pincang,Swollen Legs,Kehilangan Nafsu Makan,Demam,6 hari,Ya,Ya,Ya,Ya,Tidak,Tidak,Ya,Ya,Ya,39.5°C,100,Influenza Kuda
+Sapi,8,Jantan,700.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,5 hari,Ya,Ya,Tidak,Tidak,Ya,Ya,Ya,Tidak,Ya,39.2°C,75,Penyakit Pernapasan Sapi
+Kelinci,2,Jantan,1.5,Bersin,Keluar Lendir Hidung,Kehilangan Nafsu Makan,Demam,4 hari,Ya,Ya,Tidak,Ya,Ya,Ya,Tidak,Ya,Ya,39.3°C,130,Pasteurelosis
+Domba,6,Jantan,95.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,5 hari,Ya,Ya,Ya,Tidak,Ya,Ya,Ya,Ya,Tidak,39.4°C,80,Penyakit Mulut dan Kuku
+Kambing,4,Betina,90.0,Muntah,Diare,Lesu,Demam,5 hari,Ya,Tidak,Ya,Ya,Tidak,Ya,Ya,Tidak,Ya,39.6°C,85,Artritis Ensefalitis Kaprin
+Babi,3,Betina,120.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,4 hari,Ya,Ya,Tidak,Ya,Ya,Tidak,Ya,Ya,Tidak,39.1°C,95,Influenza Babi
+Anjing,4,Jantan,20.0,Lesu,Muntah,Kehilangan Nafsu Makan,Demam,4 hari,Ya,Tidak,Ya,Ya,Tidak,Ya,Ya,Ya,Ya,39.2°C,130,Distemper Anjing
+Kucing,3,Betina,7.0,Batuk,Kehilangan Nafsu Makan,Keluar Lendir Hidung,Demam,3 hari,Ya,Ya,Tidak,Ya,Ya,Ya,Ya,Ya,Ya,39.0°C,140,Peritonitis Infeksius Kucing
+Kuda,8,Jantan,800.0,Pincang,Swollen Legs,Kehilangan Nafsu Makan,Demam,6 hari,Ya,Ya,Ya,Ya,Tidak,Ya,Ya,Ya,Ya,39.6°C,85,Ensefalomielitis Kuda
+Sapi,7,Betina,650.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,5 hari,Ya,Tidak,Ya,Tidak,Ya,Tidak,Ya,Ya,Ya,39.3°C,75,Tuberkulosis Sapi
+Kelinci,1,Betina,1.3,Bersin,Keluar Lendir Hidung,Kehilangan Nafsu Makan,Demam,3 hari,Ya,Ya,Tidak,Tidak,Ya,Ya,Tidak,Ya,Ya,39.1°C,140,Miksomatosis
+Domba,5,Jantan,110.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,6 hari,Ya,Ya,Ya,Ya,Ya,Ya,Tidak,Ya,Tidak,39.4°C,70,Scrapie
+Kambing,7,Betina,100.0,Muntah,Diare,Lesu,Demam,5 hari,Ya,Ya,Ya,Tidak,Ya,Tidak,Ya,Ya,Ya,39.7°C,80,Pneumonia
+Babi,5,Jantan,130.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,4 hari,Ya,Tidak,Ya,Ya,Ya,Ya,Ya,Tidak,Ya,39.2°C,90,Pleuropneumonia Actinobacillus
+Anjing,3,Betina,12.0,Lesu,Muntah,Kehilangan Nafsu Makan,Demam,4 hari,Ya,Ya,Tidak,Ya,Tidak,Ya,Ya,Ya,Tidak,39.0°C,115,Parvovirus Anjing
+Kucing,4,Jantan,10.0,Muntah,Kehilangan Nafsu Makan,Lesu,Demam,4 hari,Ya,Ya,Tidak,Ya,Tidak,Ya,Ya,Tidak,Ya,39.2°C,145,Panleukopenia Kucing
+Kuda,6,Jantan,500.0,Pincang,Swollen Legs,Kehilangan Nafsu Makan,Demam,6 hari,Ya,Tidak,Ya,Tidak,Ya,Ya,Tidak,Ya,Tidak,39.3°C,85,Mieloensefalitis Protozoa Kuda
+Sapi,6,Jantan,550.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,6 hari,Ya,Ya,Tidak,Ya,Ya,Ya,Tidak,Tidak,Ya,39.5°C,70,Penyakit Johne Sapi
+Kelinci,2,Jantan,1.8,Bersin,Kehilangan Nafsu Makan,Keluar Lendir Hidung,Demam,4 hari,Ya,Ya,Ya,Ya,Tidak,Ya,Ya,Ya,Ya,39.2°C,130,Penyakit Hemoragik Virus Kelinci
+Domba,6,Betina,90.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,6 hari,Ya,Ya,Tidak,Ya,Tidak,Ya,Ya,Ya,Tidak,39.6°C,80,Lidah Biru
+Kambing,7,Betina,120.0,Muntah,Diare,Lesu,Demam,5 hari,Ya,Ya,Tidak,Ya,Ya,Tidak,Ya,Ya,Ya,39.5°C,90,Penyakit Mulut dan Kuku
+Babi,4,Betina,150.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,5 hari,Ya,Tidak,Ya,Ya,Ya,Ya,Tidak,Ya,Ya,39.4°C,85,Erisipelas Babi
+Anjing,5,Betina,22.0,Batuk,Lesu,Kehilangan Nafsu Makan,Demam,5 hari,Ya,Ya,Ya,Tidak,Ya,Ya,Ya,Tidak,Ya,39.3°C,120,Batuk Anjing
+Kuda,7,Jantan,550.0,Pincang,Swollen Legs,Kehilangan Nafsu Makan,Demam,6 hari,Ya,Tidak,Ya,Tidak,Ya,Ya,Ya,Tidak,Ya,39.4°C,110,Equine Infectious Anemia
+Sapi,8,Betina,750.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,7 hari,Ya,Ya,Ya,Ya,Tidak,Ya,Tidak,Ya,Ya,39.5°C,85,Kompleks Penyakit Pernapasan Sapi
+Kelinci,1,Betina,2.0,Bersin,Kehilangan Nafsu Makan,Keluar Lendir Hidung,Demam,5 hari,Ya,Ya,Ya,Ya,Tidak,Ya,Ya,Tidak,Ya,39.2°C,120,Infeksi Saluran Pernapasan
+Domba,4,Jantan,85.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,5 hari,Ya,Ya,Ya,Ya,Tidak,Ya,Ya,Ya,Ya,39.3°C,95,Virus Lidah Biru
+Kambing,2,Jantan,85.0,Muntah,Diare,Lesu,Demam,5 hari,Ya,Ya,Tidak,Tidak,Ya,Ya,Ya,Tidak,Ya,39.6°C,90,Virus Artritis Ensefalitis Kaprin
+Babi,3,Betina,135.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,5 hari,Ya,Tidak,Ya,Ya,Ya,Ya,Ya,Tidak,Ya,39.4°C,95,Demam Babi Afrika
+Anjing,4,Jantan,8.0,Lesu,Muntah,Kehilangan Nafsu Makan,Demam,4 hari,Ya,Ya,Ya,Ya,Tidak,Tidak,Ya,Tidak,Ya,39.2°C,115,Parvovirus
+Kucing,2,Betina,6.0,Batuk,Kehilangan Nafsu Makan,Keluar Lendir Hidung,Demam,4 hari,Ya,Ya,Tidak,Ya,Tidak,Ya,Tidak,Ya,Ya,39.1°C,140,Peritonitis Infeksius Kucing
+Kuda,9,Jantan,600.0,Pincang,Swollen Legs,Kehilangan Nafsu Makan,Demam,6 hari,Ya,Ya,Ya,Ya,Ya,Tidak,Ya,Ya,Ya,39.5°C,80,Virus West Nile
+Sapi,5,Betina,650.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,5 hari,Ya,Ya,Ya,Ya,Ya,Ya,Ya,Tidak,Ya,39.3°C,75,Tuberkulosis Sapi
+Kelinci,2,Jantan,1.5,Bersin,Kehilangan Nafsu Makan,Keluar Lendir Hidung,Demam,4 hari,Ya,Ya,Ya,Ya,Ya,Ya,Tidak,Ya,Ya,39.2°C,130,Penyakit Hemoragik Virus
+Domba,6,Betina,120.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,5 hari,Ya,Ya,Ya,Ya,Ya,Ya,Ya,Ya,Tidak,39.5°C,80,Penyakit Scrapie
+Kambing,5,Betina,75.0,Muntah,Diare,Lesu,Demam,5 hari,Ya,Ya,Ya,Ya,Tidak,Ya,Ya,Ya,Ya,39.7°C,85,Pneumonia
+Babi,6,Jantan,140.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,6 hari,Ya,Ya,Tidak,Tidak,Ya,Ya,Ya,Ya,Ya,39.5°C,90,Influenza Babi
+Anjing,2,Betina,10.0,Lesu,Muntah,Kehilangan Nafsu Makan,Demam,3 hari,Ya,Tidak,Ya,Ya,Ya,Tidak,Ya,Ya,Ya,39.0°C,125,Distemper
+Kucing,5,Jantan,8.0,Batuk,Kehilangan Nafsu Makan,Keluar Lendir Hidung,Demam,4 hari,Ya,Ya,Tidak,Ya,Ya,Ya,Ya,Ya,Ya,39.2°C,145,Virus Leukemia Kucing
+Kuda,7,Jantan,700.0,Pincang,Swollen Legs,Kehilangan Nafsu Makan,Demam,6 hari,Ya,Ya,Ya,Ya,Ya,Tidak,Ya,Ya,Ya,39.6°C,85,Ensefalitis Kuda
+Sapi,6,Jantan,650.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,5 hari,Ya,Ya,Tidak,Ya,Ya,Ya,Ya,Tidak,Ya,39.5°C,80,Kompleks Penyakit Pernapasan Sapi
+Kelinci,1,Betina,1.2,Bersin,Keluar Lendir Hidung,Kehilangan Nafsu Makan,Demam,3 hari,Ya,Ya,Ya,Tidak,Ya,Tidak,Ya,Tidak,Ya,39.0°C,130,Penyakit Hemoragik Kelinci
+Domba,7,Jantan,90.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,6 hari,Ya,Ya,Ya,Ya,Ya,Ya,Ya,Ya,Ya,39.4°C,90,Lidah Biru
+Kambing,6,Jantan,110.0,Muntah,Diare,Lesu,Demam,5 hari,Ya,Ya,Ya,Ya,Tidak,Ya,Ya,Tidak,Ya,39.6°C,90,Virus Artritis Ensefalitis Kaprin
+Babi,4,Betina,120.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,5 hari,Ya,Ya,Tidak,Ya,Ya,Ya,Ya,Ya,Ya,39.4°C,85,Erisipelas Babi
+Anjing,3,Betina,30.0,Lesu,Muntah,Kehilangan Nafsu Makan,Demam,5 hari,Ya,Ya,Ya,Ya,Ya,Ya,Ya,Ya,Ya,39.2°C,120,Leptospirosis
+Kucing,4,Jantan,7.0,Batuk,Kehilangan Nafsu Makan,Keluar Lendir Hidung,Demam,5 hari,Ya,Ya,Tidak,Ya,Tidak,Ya,Tidak,Ya,Ya,39.1°C,135,Virus Imunodefisiensi Kucing
+Kuda,5,Jantan,550.0,Pincang,Swollen Legs,Kehilangan Nafsu Makan,Demam,6 hari,Ya,Ya,Tidak,Ya,Tidak,Ya,Ya,Ya,Ya,39.5°C,110,Equine Infectious Anemia
+Sapi,3,Betina,600.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,5 hari,Ya,Tidak,Ya,Ya,Ya,Tidak,Tidak,Ya,Ya,39.4°C,95,Penyakit Pernapasan Sapi
+Domba,6,Jantan,120.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,7 hari,Ya,Ya,Ya,Tidak,Ya,Ya,Ya,Ya,Tidak,39.5°C,85,Scrapie
+Kambing,2,Betina,80.0,Muntah,Diare,Lesu,Demam,4 hari,Ya,Ya,Ya,Ya,Tidak,Ya,Tidak,Tidak,Ya,39.7°C,90,Artritis Ensefalitis Kaprin
+Babi,3,Jantan,160.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,6 hari,Ya,Ya,Ya,Ya,Ya,Tidak,Ya,Tidak,Ya,39.5°C,105,Influenza Babi
+Kuda,6,Jantan,700.0,Pincang,Swollen Legs,Kehilangan Nafsu Makan,Demam,7 hari,Ya,Ya,Ya,Tidak,Ya,Ya,Ya,Ya,Ya,39.6°C,115,Herpesvirus Kuda
+Sapi,4,Betina,650.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,6 hari,Ya,Ya,Tidak,Ya,Ya,Tidak,Ya,Ya,Ya,39.5°C,90,Tuberkulosis Sapi
+Kelinci,2,Jantan,1.6,Bersin,Kehilangan Nafsu Makan,Keluar Lendir Hidung,Demam,4 hari,Ya,Ya,Ya,Ya,Ya,Ya,Tidak,Ya,Ya,39.2°C,130,Penyakit Hemoragik Kelinci
+Domba,7,Jantan,130.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,6 hari,Ya,Ya,Ya,Ya,Ya,Ya,Tidak,Ya,Tidak,39.3°C,85,Virus Lidah Biru
+Kambing,3,Betina,75.0,Muntah,Diare,Lesu,Demam,4 hari,Ya,Ya,Ya,Ya,Ya,Ya,Ya,Ya,Ya,39.7°C,95,Artritis Ensefalitis Kaprin
+Babi,5,Jantan,140.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,5 hari,Ya,Tidak,Ya,Ya,Ya,Ya,Ya,Tidak,Ya,39.5°C,100,Demam Babi Afrika
+Anjing,2,Jantan,6.0,Lesu,Muntah,Kehilangan Nafsu Makan,Demam,3 hari,Ya,Ya,Ya,Tidak,Tidak,Ya,Ya,Tidak,Ya,39.3°C,130,Distemper Anjing
+Kucing,6,Jantan,9.0,Batuk,Kehilangan Nafsu Makan,Keluar Lendir Hidung,Demam,5 hari,Ya,Ya,Tidak,Ya,Ya,Ya,Tidak,Ya,Ya,39.4°C,140,Herpesvirus Kucing
+Kuda,7,Betina,550.0,Pincang,Swollen Legs,Kehilangan Nafsu Makan,Demam,7 hari,Ya,Ya,Ya,Ya,Tidak,Ya,Ya,Ya,Ya,39.7°C,100,Equine Infectious Anemia
+Sapi,8,Betina,750.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,6 hari,Ya,Ya,Tidak,Ya,Ya,Ya,Ya,Tidak,Ya,39.3°C,80,Penyakit Pernapasan Sapi
+Kelinci,1,Betina,1.4,Bersin,Kehilangan Nafsu Makan,Keluar Lendir Hidung,Demam,3 hari,Ya,Ya,Ya,Tidak,Ya,Ya,Ya,Ya,Ya,39.2°C,130,Penyakit Hemoragik Virus Kelinci
+Domba,6,Jantan,125.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,7 hari,Ya,Ya,Ya,Ya,Ya,Ya,Ya,Ya,Ya,39.6°C,85,Penyakit Scrapie
+Kambing,4,Jantan,80.0,Muntah,Diare,Lesu,Demam,5 hari,Ya,Ya,Tidak,Ya,Tidak,Ya,Ya,Ya,Tidak,39.6°C,90,Penyakit Pernapasan Kambing
+Babi,6,Betina,130.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,6 hari,Ya,Ya,Tidak,Ya,Ya,Ya,Ya,Tidak,Ya,39.4°C,95,Demam Babi
+Anjing,2,Jantan,10.0,Lesu,Muntah,Kehilangan Nafsu Makan,Demam,4 hari,Ya,Ya,Ya,Ya,Tidak,Ya,Ya,Tidak,Ya,39.4°C,120,Leptospirosis Anjing
+Kucing,4,Betina,7.0,Batuk,Kehilangan Nafsu Makan,Keluar Lendir Hidung,Demam,5 hari,Ya,Ya,Ya,Tidak,Ya,Tidak,Ya,Tidak,Ya,39.0°C,130,Asma Kucing
+Kuda,5,Jantan,680.0,Pincang,Swollen Legs,Kehilangan Nafsu Makan,Demam,5 hari,Ya,Ya,Ya,Ya,Ya,Tidak,Ya,Ya,Ya,39.4°C,105,Laminitis Kuda
+Sapi,3,Jantan,700.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,6 hari,Ya,Ya,Ya,Ya,Tidak,Ya,Ya,Tidak,Ya,39.2°C,90,Mastitis Sapi
+Sapi,3,Jantan,580.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,4 hari,Ya,Ya,Ya,Ya,Tidak,Ya,Ya,Tidak,Ya,39.4°C,85,Penyakit Pernapasan Sapi
+Domba,4,Jantan,125.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,5 hari,Ya,Ya,Tidak,Ya,Ya,Tidak,Tidak,Ya,Ya,39.3°C,80,Scrapie
+Kambing,3,Betina,75.0,Muntah,Diare,Lesu,Demam,5 hari,Ya,Ya,Ya,Tidak,Ya,Tidak,Ya,Ya,Ya,39.5°C,90,Artritis Ensefalitis Kaprin
+Babi,4,Jantan,130.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,6 hari,Ya,Ya,Ya,Ya,Tidak,Ya,Tidak,Tidak,Ya,39.6°C,100,Flu Babi
+Domba,3,Betina,110.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,4 hari,Ya,Ya,Tidak,Ya,Ya,Tidak,Tidak,Ya,Tidak,39.4°C,80,Lidah Biru
+Kambing,5,Jantan,85.0,Muntah,Diare,Lesu,Demam,5 hari,Ya,Ya,Ya,Tidak,Ya,Tidak,Ya,Ya,Ya,39.6°C,95,Cacar Kambing
+Babi,2,Betina,120.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,4 hari,Ya,Ya,Ya,Tidak,Ya,Ya,Ya,Ya,Ya,39.5°C,105,Virus Diare Epidemik Babi
+Kuda,4,Jantan,650.0,Pincang,Swollen Legs,Kehilangan Nafsu Makan,Demam,6 hari,Ya,Ya,Ya,Tidak,Ya,Ya,Ya,Ya,Ya,39.6°C,120,Herpesvirus Kuda
+Sapi,3,Betina,700.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,5 hari,Ya,Ya,Ya,Ya,Ya,Tidak,Tidak,Ya,Ya,39.4°C,90,Penyakit Pernapasan Sapi
+Kambing,4,Betina,70.0,Muntah,Diare,Lesu,Demam,5 hari,Ya,Ya,Ya,Ya,Tidak,Ya,Ya,Ya,Tidak,39.5°C,90,Artritis Ensefalitis Kaprin
+Babi,3,Jantan,150.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,5 hari,Ya,Tidak,Ya,Ya,Tidak,Ya,Ya,Ya,Ya,39.7°C,105,Influenza Babi
+Anjing,3,Betina,30.0,Lesu,Muntah,Kehilangan Nafsu Makan,Demam,4 hari,Ya,Ya,Ya,Ya,Ya,Tidak,Ya,Tidak,Ya,39.3°C,120,Hepatitis Infeksius Anjing
+Kucing,5,Jantan,8.0,Batuk,Kehilangan Nafsu Makan,Keluar Lendir Hidung,Demam,5 hari,Ya,Ya,Ya,Ya,Tidak,Ya,Tidak,Ya,Ya,39.0°C,135,Virus Panleukopenia Kucing
+Kuda,6,Betina,650.0,Pincang,Swollen Legs,Kehilangan Nafsu Makan,Demam,5 hari,Ya,Ya,Ya,Tidak,Ya,Ya,Ya,Ya,Ya,39.5°C,110,Sindrom Metabolik Kuda
+Sapi,2,Jantan,550.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,4 hari,Ya,Ya,Ya,Tidak,Ya,Ya,Ya,Tidak,Ya,39.2°C,95,Mastitis Sapi
+Sapi,4,Betina,700.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,6 hari,Ya,Ya,Ya,Ya,Ya,Tidak,Tidak,Ya,Ya,39.4°C,100,Penyakit Pernapasan Sapi
+Domba,3,Jantan,110.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,5 hari,Ya,Ya,Ya,Ya,Tidak,Ya,Tidak,Ya,Tidak,39.3°C,80,Lidah Biru
+Kambing,2,Betina,70.0,Muntah,Diare,Lesu,Demam,4 hari,Ya,Ya,Ya,Ya,Tidak,Ya,Ya,Ya,Tidak,39.4°C,90,Artritis Ensefalitis Kaprin
+Babi,3,Jantan,130.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,5 hari,Ya,Ya,Ya,Ya,Tidak,Ya,Tidak,Tidak,Ya,39.6°C,105,Influenza Babi
+Sapi,2,Jantan,500.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,5 hari,Ya,Ya,Ya,Ya,Tidak,Ya,Tidak,Tidak,Ya,39.4°C,95,Tuberkulosis Sapi
+Domba,4,Betina,120.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,6 hari,Ya,Ya,Ya,Ya,Tidak,Ya,Ya,Tidak,Ya,39.4°C,85,Scrapie
+Kambing,3,Jantan,75.0,Muntah,Diare,Lesu,Demam,5 hari,Ya,Ya,Ya,Tidak,Ya,Tidak,Ya,Ya,Tidak,39.5°C,100,Artritis Virus Kambing
+Babi,2,Betina,120.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,5 hari,Ya,Ya,Ya,Ya,Tidak,Ya,Ya,Tidak,Ya,39.6°C,110,Penyakit Circovirus Babi
+Kambing,4,Betina,80.0,Muntah,Diare,Lesu,Demam,6 hari,Ya,Ya,Ya,Ya,Tidak,Ya,Ya,Tidak,Ya,39.5°C,95,Penyakit Pernapasan Kambing
+Babi,5,Jantan,145.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,4 hari,Ya,Ya,Ya,Ya,Ya,Ya,Tidak,Tidak,Ya,39.7°C,110,Demam Babi
+Domba,5,Jantan,150.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,5 hari,Ya,Ya,Ya,Ya,Tidak,Ya,Tidak,Tidak,Ya,39.5°C,90,Scrapie
+Domba,6,Jantan,130.0,Batuk,Kehilangan Nafsu Makan,Lesu,Demam,5 hari,Ya,Ya,Ya,Ya,Tidak,Ya,Ya,Tidak,Ya,39.3°C,80,Penyakit Mulut dan Kuku
+Anjing,5,Jantan,35.0,Batuk,Lesu,Kehilangan Nafsu Makan,Demam,4 hari,Ya,Ya,Tidak,Ya,Tidak,Tidak,Tidak,Ya,Tidak,39.2°C,110,Parvovirus Anjing
+Anjing,4,Jantan,30.0,Muntah,Kehilangan Nafsu Makan,Lesu,Demam,5 hari,Ya,Ya,Tidak,Ya,Tidak,Tidak,Tidak,Ya,Tidak,39.2°C,100,Parvovirus Anjing
+Kucing,3,Betina,5.0,Batuk,Bersin,Keluar Lendir Hidung,Demam,4 hari,Ya,Ya,Tidak,Ya,Tidak,Tidak,Tidak,Ya,Tidak,39.1°C,110,Calicivirus Kucing
+Kuda,5,Jantan,450.0,Pincang,Kehilangan Nafsu Makan,Swollen Legs,Demam,7 hari,Ya,Tidak,Tidak,Ya,Ya,Ya,Tidak,Ya,Tidak,39.4°C,110,Equine Infectious Anemia
+Kuda,6,Jantan,700.0,Pincang,Swollen Legs,Kehilangan Nafsu Makan,Demam,7 hari,Ya,Ya,Tidak,Ya,Ya,Ya,Tidak,Ya,Tidak,39.4°C,125,Herpesvirus Kuda
+Anjing,4,Jantan,25.0,Demam,Lesu,Kehilangan Nafsu Makan,Muntah,3 hari,Ya,Ya,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak,39.5°C,120,Parvovirus
+Kucing,2,Betina,4.5,Batuk,Bersin,Keluar Cairan Mata,Keluar Lendir Hidung,1 minggu,Tidak,Tidak,Tidak,Ya,Tidak,Tidak,Tidak,Ya,Ya,38.9°C,150,Infeksi Saluran Pernapasan Atas
+Sapi,3,Betina,600.0,Demam,Keluar Lendir Hidung,Kesulitan Bernafas,Batuk,5 hari,Ya,Tidak,Tidak,Ya,Ya,Tidak,Tidak,Ya,Tidak,40.1°C,90,Penyakit Mulut dan Kuku
+Anjing,1,Jantan,10.0,Diare,Muntah,Lesu,Kehilangan Nafsu Makan,2 hari,Ya,Ya,Ya,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak,39.2°C,130,Gastroenteritis
+Kucing,5,Jantan,3.8,Lesu,Kehilangan Nafsu Makan,Lesi Kulit,,2 minggu,Ya,Tidak,Tidak,Tidak,Tidak,Tidak,Ya,Tidak,Tidak,38.7°C,160,Infeksi Jamur
+Kuda,6,Betina,500.0,Batuk,Kesulitan Bernafas,Keluar Lendir Hidung,Demam,10 hari,Ya,Tidak,Tidak,Ya,Ya,Tidak,Tidak,Ya,Tidak,39.8°C,85,Influenza Kuda
+Anjing,3,Betina,30.0,Pincang,Demam,Lesi Kulit,Lesu,7 hari,Ya,Tidak,Tidak,Tidak,Tidak,Ya,Ya,Tidak,Tidak,39.3°C,110,Penyakit Lyme
+Kucing,2,Jantan,6.0,Muntah,Kehilangan Nafsu Makan,Lesu,Diare,4 hari,Ya,Ya,Ya,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak,39.1°C,140,Parasit Usus
+Anjing,5,Jantan,23.0,Kesulitan Bernafas,Batuk,Keluar Lendir Hidung,Kehilangan Nafsu Makan,6 hari,Ya,Tidak,Tidak,Ya,Ya,Tidak,Tidak,Ya,Tidak,40.0°C,115,Distemper Anjing
+Sapi,4,Betina,580.0,Lesu,Penurunan Produksi Susu,Demam,,8 hari,Ya,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak,Tidak,39.6°C,70,Mastitis
