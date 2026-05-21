@@ -1,5 +1,7 @@
 import streamlit as st
 import pandas as pd
+import os
+from datetime import datetime
 from engine.forward_chaining import jalankan_forward_chaining
 
 # ============================================================
@@ -9,6 +11,46 @@ from engine.forward_chaining import jalankan_forward_chaining
 @st.cache_data
 def load_data():
     return pd.read_csv("data/dataset_diagnosa_penyakit_hewan.csv")
+
+
+# ============================================================
+# SIMPAN KE HISTORY CSV
+# ============================================================
+
+def simpan_ke_history(data: dict, hasil: list):
+    """Menyimpan satu baris hasil diagnosa ke history_diagnosis.csv"""
+
+    history_path = "history_diagnosis.csv"
+
+    top = hasil[0] if hasil else {}
+
+    baris = {
+        "Tanggal"          : datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        "Nama Hewan"       : data.get("nama_hewan", ""),
+        "Jenis Hewan"      : data.get("jenis_hewan", ""),
+        "Jenis Kelamin"    : data.get("jenis_kelamin", ""),
+        "Usia (tahun)"     : data.get("usia", ""),
+        "Berat (kg)"       : data.get("berat_badan", ""),
+        "Suhu (°C)"        : data.get("suhu_tubuh", ""),
+        "Detak (bpm)"      : data.get("detak_jantung", ""),
+        "Gejala 1"         : data.get("gejala_1", ""),
+        "Gejala 2"         : data.get("gejala_2", ""),
+        "Gejala 3"         : data.get("gejala_3", ""),
+        "Gejala 4"         : data.get("gejala_4", ""),
+        "Hasil Diagnosa"   : top.get("penyakit", "Tidak ditemukan"),
+        "Kecocokan (%)"    : top.get("kecocokan", 0),
+        "Jumlah Kandidat"  : len(hasil),
+    }
+
+    df_baris = pd.DataFrame([baris])
+
+    if os.path.exists(history_path):
+        df_existing = pd.read_csv(history_path)
+        df_updated  = pd.concat([df_existing, df_baris], ignore_index=True)
+    else:
+        df_updated = df_baris
+
+    df_updated.to_csv(history_path, index=False)
 
 
 def show_hasil_diagnosa():
@@ -132,6 +174,14 @@ def show_hasil_diagnosa():
         hasil = jalankan_forward_chaining(data, df)
 
     # ========================
+    # SIMPAN KE HISTORY
+    # (hanya sekali per sesi diagnosa)
+    # ========================
+    if not st.session_state.get("sudah_disimpan"):
+        simpan_ke_history(data, hasil)
+        st.session_state["sudah_disimpan"] = True
+
+    # ========================
     # TIDAK ADA HASIL
     # ========================
     if not hasil:
@@ -202,6 +252,7 @@ def show_hasil_diagnosa():
     # ========================
     st.markdown("<br>", unsafe_allow_html=True)
     if st.button("🔄 Ulangi Diagnosa"):
-        st.session_state["sudah_diagnosa"] = False
-        st.session_state["data_diagnosa"]  = {}
+        st.session_state["sudah_diagnosa"]  = False
+        st.session_state["data_diagnosa"]   = {}
+        st.session_state["sudah_disimpan"]  = False   # ← reset flag
         st.rerun()
