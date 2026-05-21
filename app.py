@@ -42,14 +42,14 @@ section[data-testid="stSidebar"] * {
     margin-bottom: 6px;
 }
 .sidebar-brand-name {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 800;
-    color: #f0f9ff !important;
+    color: #ffffff !important;
     line-height: 1.2;
 }
 .sidebar-brand-sub {
-    font-size: 11px;
-    color: #64748b !important;
+    font-size: 12px;
+    color: #94a3b8 !important;
     font-weight: 500;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -69,9 +69,9 @@ div[data-testid="stSidebar"] .stRadio div[role="radiogroup"] label {
     display: flex !important;
     align-items: center !important;
     gap: 10px !important;
-    padding: 11px 14px !important;
+    padding: 12px 14px !important;
     border-radius: 10px !important;
-    font-size: 14px !important;
+    font-size: 16px !important;
     font-weight: 600 !important;
     color: #94a3b8 !important;
     cursor: pointer;
@@ -80,13 +80,13 @@ div[data-testid="stSidebar"] .stRadio div[role="radiogroup"] label {
 }
 div[data-testid="stSidebar"] .stRadio div[role="radiogroup"] label:hover {
     background: rgba(56,189,248,0.08) !important;
-    color: #e2e8f0 !important;
+    color: #ffffff !important;
     border-color: rgba(56,189,248,0.15) !important;
 }
 div[data-testid="stSidebar"] .stRadio div[role="radiogroup"] label[data-checked="true"],
 div[data-testid="stSidebar"] .stRadio div[role="radiogroup"] label:has(input:checked) {
     background: rgba(56,189,248,0.12) !important;
-    color: #38bdf8 !important;
+    color: #ffffff !important;
     border-color: rgba(56,189,248,0.25) !important;
 }
 /* Hide the default radio circle */
@@ -102,13 +102,13 @@ div[data-testid="stSidebar"] .stRadio div[role="radiogroup"] label span:first-ch
     background: rgba(30,58,95,0.4);
     border: 1px solid #1e3a5f;
     border-radius: 12px;
-    font-size: 11.5px;
-    color: #475569 !important;
+    font-size: 12px;
+    color: #64748b !important;
     line-height: 1.5;
     width: 220px;
 }
 .sidebar-footer strong {
-    color: #64748b !important;
+    color: #94a3b8 !important;
 }
 
 /* ── Remove top padding on main ── */
