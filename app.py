@@ -1,10 +1,10 @@
 import streamlit as st
 
-# IMPORT HALAMAN
-from pages.dashboard import show_dashboard
-from pages.form_input import show_form_input
-from pages.hasil_diagnosa import show_hasil_diagnosa
-from pages.history_diagnosa import show_history_diagnosa
+# IMPORT HALAMAN — dari folder 'views' (bukan 'pages')
+from views.dashboard import show_dashboard
+from views.form_input import show_form_input
+from views.hasil_diagnosa import show_hasil_diagnosa
+from views.history_diagnosa import show_history_diagnosa
 
 # PAGE CONFIG
 st.set_page_config(
