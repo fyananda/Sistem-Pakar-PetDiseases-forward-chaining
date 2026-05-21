@@ -14,7 +14,7 @@ st.set_page_config(
 )
 
 # SIDEBAR
-st.sidebar.title("🐾 PetDiseases Expert System")
+st.sidebar.title("🐾 Pet Diseases Smart System")
 
 menu = st.sidebar.radio(
     "Menu Navigasi",
