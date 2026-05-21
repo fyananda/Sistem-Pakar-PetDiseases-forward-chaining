@@ -1,273 +1,207 @@
+import streamlit as st
 import pandas as pd
+from engine.forward_chaining import jalankan_forward_chaining
 
 # ============================================================
-# DESKRIPSI & SARAN PER PENYAKIT
-# Tambahkan entri baru di sini saat menambah penyakit baru
+# CACHE DATASET — hanya load sekali selama sesi berjalan
 # ============================================================
 
-DESKRIPSI_PENYAKIT = {
-    "Parvovirus": {
-        "deskripsi": "Parvovirus adalah infeksi virus yang sangat menular pada anjing, "
-                     "menyerang sistem pencernaan dan kekebalan tubuh.",
-        "saran":     "Segera bawa ke dokter hewan. Hewan perlu cairan infus dan perawatan intensif."
-    },
-    "Parvovirus Anjing": {
-        "deskripsi": "Parvovirus Anjing menyerang usus halus dan sumsum tulang, "
-                     "menyebabkan diare berdarah dan penurunan sel darah putih.",
-        "saran":     "Isolasi hewan dari anjing lain. Segera ke dokter hewan untuk terapi suportif."
-    },
-    "Infeksi Saluran Pernapasan Atas": {
-        "deskripsi": "Infeksi pada saluran pernapasan bagian atas yang umum terjadi "
-                     "pada kucing dan anjing, biasanya disebabkan virus atau bakteri.",
-        "saran":     "Konsultasikan ke dokter hewan untuk pemberian antibiotik atau antivirus yang tepat."
-    },
-    "Infeksi Saluran Pernapasan Atas Kucing": {
-        "deskripsi": "Infeksi saluran pernapasan atas pada kucing umumnya disebabkan "
-                     "oleh Herpesvirus atau Calicivirus.",
-        "saran":     "Jauhkan dari kucing lain. Berikan makanan lembut dan pastikan tetap terhidrasi."
-    },
-    "Gastroenteritis": {
-        "deskripsi": "Peradangan pada lambung dan usus yang menyebabkan diare dan muntah, "
-                     "dapat dipicu oleh infeksi bakteri, virus, atau makanan.",
-        "saran":     "Pastikan hewan tetap terhidrasi. Berikan makanan ringan dan pantau kondisinya."
-    },
-    "Infeksi Jamur": {
-        "deskripsi": "Infeksi yang disebabkan oleh jamur seperti Ringworm atau Aspergillus, "
-                     "biasanya menyerang kulit, kuku, atau organ dalam.",
-        "saran":     "Gunakan antijamur sesuai resep dokter. Jaga kebersihan lingkungan hewan."
-    },
-    "Distemper Anjing": {
-        "deskripsi": "Penyakit virus yang sangat menular pada anjing, menyerang sistem "
-                     "pernapasan, pencernaan, dan saraf.",
-        "saran":     "Tidak ada pengobatan spesifik. Perawatan suportif dan isolasi segera diperlukan."
-    },
-    "Penyakit Mulut dan Kuku": {
-        "deskripsi": "Penyakit virus yang sangat menular pada hewan berkuku belah seperti sapi, "
-                     "kambing, dan domba, menyebabkan lepuhan di mulut dan kaki.",
-        "saran":     "Laporkan ke dinas peternakan setempat. Isolasi hewan yang terinfeksi segera."
-    },
-    "Rabies": {
-        "deskripsi": "Penyakit virus fatal yang menyerang sistem saraf pusat pada semua mamalia "
-                     "termasuk manusia. Ditularkan melalui gigitan.",
-        "saran":     "BAHAYA: Segera hubungi dokter hewan dan dinas kesehatan. Hewan harus dikarantina."
-    },
-    "Mastitis": {
-        "deskripsi": "Peradangan pada kelenjar susu, umumnya terjadi pada sapi perah, "
-                     "kambing, dan domba yang sedang laktasi.",
-        "saran":     "Hubungi dokter hewan untuk terapi antibiotik. Lanjutkan pemerahan secara teratur."
-    },
-    "Kurap": {
-        "deskripsi": "Infeksi jamur pada kulit yang menyebabkan rambut/bulu rontok melingkar "
-                     "dan kulit bersisik. Dapat menular ke manusia.",
-        "saran":     "Gunakan salep antijamur. Cuci tangan setelah memegang hewan dan bersihkan kandang."
-    },
-    "Leptospirosis": {
-        "deskripsi": "Infeksi bakteri Leptospira yang menyerang ginjal dan hati. "
-                     "Dapat menular ke manusia melalui urin hewan.",
-        "saran":     "Segera ke dokter hewan untuk antibiotik. Hindari kontak langsung dengan urin hewan."
-    },
-    "Leptospirosis Anjing": {
-        "deskripsi": "Infeksi bakteri pada anjing yang menyerang ginjal dan hati, "
-                     "sering ditularkan melalui air yang terkontaminasi.",
-        "saran":     "Segera ke dokter hewan. Gunakan sarung tangan saat merawat dan bersihkan area hewan."
-    },
-    "Influenza Kuda": {
-        "deskripsi": "Penyakit pernapasan menular pada kuda yang disebabkan virus influenza, "
-                     "menyebabkan demam tinggi dan batuk kering.",
-        "saran":     "Istirahatkan kuda dari aktivitas berat. Konsultasi dokter hewan untuk antivirus."
-    },
-    "Penyakit Lyme": {
-        "deskripsi": "Infeksi bakteri Borrelia yang ditularkan melalui gigitan kutu, "
-                     "menyebabkan demam, pincang, dan pembengkakan sendi.",
-        "saran":     "Berikan antibiotik sesuai resep dokter. Gunakan anti-kutu secara rutin."
-    },
-    "Parasit Usus": {
-        "deskripsi": "Infestasi cacing atau protozoa di saluran pencernaan yang menyebabkan "
-                     "diare, penurunan berat badan, dan perut buncit.",
-        "saran":     "Berikan obat cacing sesuai petunjuk dokter hewan. Jaga kebersihan kandang."
-    },
-    "Demam Babi Afrika": {
-        "deskripsi": "Penyakit virus sangat mematikan pada babi domestik dan liar "
-                     "tanpa pengobatan atau vaksin yang tersedia.",
-        "saran":     "WAJIB laporkan ke dinas peternakan. Lakukan biosekuriti ketat di area peternakan."
-    },
-    "Cacar Domba": {
-        "deskripsi": "Penyakit virus pada domba dan kambing yang menyebabkan demam "
-                     "dan lesi kulit papular di seluruh tubuh.",
-        "saran":     "Isolasi hewan yang terinfeksi. Vaksinasi domba sehat di sekitarnya."
-    },
-    "Cacar Kambing": {
-        "deskripsi": "Penyakit virus pada kambing yang menyebabkan lesi kulit, demam, "
-                     "dan gangguan pernapasan, dapat mematikan pada anak kambing.",
-        "saran":     "Isolasi segera dan hubungi dokter hewan. Lakukan vaksinasi pencegahan."
-    },
-    "Kolik Kuda": {
-        "deskripsi": "Nyeri perut parah pada kuda yang dapat disebabkan oleh berbagai kondisi "
-                     "gastrointestinal, dari gas berlebih hingga penyumbatan usus.",
-        "saran":     "DARURAT: Segera hubungi dokter hewan. Jangan beri makan dan tetap gerakkan kuda."
-    },
-    "Bronkitis Kronis": {
-        "deskripsi": "Peradangan kronis pada saluran bronkus yang menyebabkan batuk "
-                     "persisten dan produksi lendir berlebih.",
-        "saran":     "Konsultasikan ke dokter hewan. Jauhkan dari asap rokok dan debu."
-    },
-    "Koksidiosis": {
-        "deskripsi": "Infeksi parasit protozoa Eimeria pada saluran pencernaan yang "
-                     "umum terjadi pada hewan muda.",
-        "saran":     "Berikan koksidiostat sesuai resep dokter. Jaga kebersihan kandang dan pakan."
-    },
-    "Pneumonia": {
-        "deskripsi": "Peradangan pada paru-paru yang dapat disebabkan bakteri, virus, atau jamur, "
-                     "menyebabkan kesulitan bernapas dan demam.",
-        "saran":     "Segera ke dokter hewan untuk antibiotik atau antivirus. Pastikan hewan hangat."
-    },
-    "Arthritis": {
-        "deskripsi": "Peradangan sendi yang menyebabkan nyeri, bengkak, dan keterbatasan gerak, "
-                     "umum pada hewan tua.",
-        "saran":     "Berikan anti-inflamasi sesuai resep dokter. Kurangi aktivitas fisik berat."
-    },
-}
-
-# Deskripsi default untuk penyakit yang belum terdaftar
-DESKRIPSI_DEFAULT = {
-    "deskripsi": "Informasi detail untuk penyakit ini belum tersedia dalam database.",
-    "saran":     "Segera konsultasikan ke dokter hewan untuk penanganan lebih lanjut."
-}
+@st.cache_data
+def load_data():
+    return pd.read_csv("data/dataset_diagnosa_penyakit_hewan.csv")
 
 
-# ============================================================
-# FUNGSI UTAMA: FORWARD CHAINING
-# ============================================================
+def show_hasil_diagnosa():
 
-def jalankan_forward_chaining(data: dict, df: pd.DataFrame) -> list[dict]:
-    """
-    Menjalankan algoritma Forward Chaining berdasarkan input pengguna.
-
-    Parameters
-    ----------
-    data : dict
-        Data dari session_state["data_diagnosa"], berisi:
-        - jenis_hewan, jenis_kelamin, suhu_tubuh, detak_jantung
-        - gejala_1..4 (bisa None), nafsu_makan, muntah, diare,
-          batuk, sesak_nafas
-    df : pd.DataFrame
-        Dataset penyakit hewan yang sudah di-load.
-
-    Returns
-    -------
-    list[dict] — daftar hasil diagnosa, sudah diurutkan dari
-                 kecocokan tertinggi. Setiap item berisi:
-                 penyakit, kecocokan, gejala_cocok, total_rule,
-                 deskripsi, saran
-    """
-
-    GEJALA_COLUMNS = ["Gejala_1", "Gejala_2", "Gejala_3", "Gejala_4"]
-
-    # ----------------------------------------------------------
-    # 1. Kumpulkan semua gejala aktif dari input user
-    # ----------------------------------------------------------
-    selected_gejala = set()
-
-    # Gejala klinis (dropdown)
-    for key in ["gejala_1", "gejala_2", "gejala_3", "gejala_4"]:
-        val = data.get(key)
-        if val:
-            selected_gejala.add(val.strip())
-
-    # Gejala biner (Ya/Tidak) → masukkan ke set jika "Ya"
-    GEJALA_BINER = {
-        "nafsu_makan" : "Kehilangan Nafsu Makan",
-        "muntah"      : "Muntah",
-        "diare"       : "Diare",
-        "batuk"       : "Batuk",
-        "sesak_nafas" : "Kesulitan Bernafas",
+    # ========================
+    # CSS
+    # ========================
+    st.markdown("""
+    <style>
+    .hasil-title {
+        text-align: center;
+        font-size: 36px;
+        font-weight: bold;
+        color: #1f2937;
+        margin-bottom: 6px;
     }
-    for key, label in GEJALA_BINER.items():
-        if data.get(key) == "Ya":
-            selected_gejala.add(label)
+    .hasil-subtitle {
+        text-align: center;
+        color: #6b7280;
+        margin-bottom: 30px;
+    }
+    .card-utama {
+        background: white;
+        border-left: 6px solid #2563eb;
+        border-radius: 16px;
+        padding: 24px 30px;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+        margin-bottom: 20px;
+    }
+    .card-utama .penyakit-nama {
+        font-size: 26px;
+        font-weight: bold;
+        color: #1e40af;
+    }
+    .persen-badge {
+        display: inline-block;
+        background: #eff6ff;
+        color: #1d4ed8;
+        border: 1px solid #bfdbfe;
+        border-radius: 999px;
+        padding: 4px 14px;
+        font-size: 13px;
+        font-weight: 700;
+        margin-bottom: 12px;
+    }
+    </style>
+    """, unsafe_allow_html=True)
 
-    # ----------------------------------------------------------
-    # 2. Filter dataset: cocokkan jenis hewan & kelamin
-    # ----------------------------------------------------------
-    filtered = df[
-        (df["Jenis_Hewan"]   == data["jenis_hewan"]) &
-        (df["Jenis_Kelamin"] == data["jenis_kelamin"])
+    st.markdown("<div class='hasil-title'>🩺 Hasil Diagnosa</div>", unsafe_allow_html=True)
+    st.markdown("<div class='hasil-subtitle'>Hasil analisis berdasarkan gejala yang diinput</div>",
+                unsafe_allow_html=True)
+
+    # ========================
+    # CEK SESSION STATE
+    # ========================
+    if not st.session_state.get("sudah_diagnosa"):
+        st.info("ℹ️ Belum ada data diagnosa. Silakan isi **Form Input** terlebih dahulu.")
+        return
+
+    data = st.session_state["data_diagnosa"]
+    df   = load_data()
+
+    # ========================
+    # RINGKASAN DATA HEWAN
+    # ========================
+    st.subheader("📋 Data Hewan")
+
+    col1, col2, col3 = st.columns(3)
+    col1.metric("Nama Hewan",    data["nama_hewan"])
+    col2.metric("Jenis Hewan",   data["jenis_hewan"])
+    col3.metric("Jenis Kelamin", data["jenis_kelamin"])
+
+    col4, col5, col6 = st.columns(3)
+    col4.metric("Usia",         f'{data["usia"]} tahun')
+    col5.metric("Berat Badan",  f'{data["berat_badan"]} kg')
+    col6.metric("Suhu Tubuh",   f'{data["suhu_tubuh"]} °C')
+
+    st.markdown("---")
+
+    # ========================
+    # RINGKASAN GEJALA
+    # ========================
+    st.subheader("🩺 Gejala yang Dilaporkan")
+
+    gejala_klinis = [
+        g for g in [
+            data["gejala_1"], data["gejala_2"],
+            data["gejala_3"], data["gejala_4"]
+        ] if g
     ]
+    gejala_tambahan = {
+        "Nafsu Makan Hilang" : data["nafsu_makan"],
+        "Muntah"             : data["muntah"],
+        "Diare"              : data["diare"],
+        "Batuk"              : data["batuk"],
+        "Kesulitan Bernafas" : data["sesak_nafas"],
+    }
 
-    # ----------------------------------------------------------
-    # 3. Bangun rules dari baris dataset
-    # ----------------------------------------------------------
-    rules = []
-    for _, row in filtered.iterrows():
-        rule_gejala = [
-            str(row[col]).strip()
-            for col in GEJALA_COLUMNS
-            if pd.notna(row[col])
-        ]
-        rules.append({
-            "penyakit" : row["Prediksi_Penyakit"],
-            "gejala"   : rule_gejala,
-            "suhu"     : row["Suhu_Tubuh"],
-            "detak"    : row["Detak_Jantung"],
-        })
+    col_g1, col_g2 = st.columns(2)
+    with col_g1:
+        st.markdown("**Gejala Klinis**")
+        if gejala_klinis:
+            for g in gejala_klinis:
+                st.markdown(f"✅ {g}")
+        else:
+            st.caption("Tidak ada gejala klinis yang dipilih.")
+    with col_g2:
+        st.markdown("**Gejala Tambahan**")
+        for label, nilai in gejala_tambahan.items():
+            icon = "✅" if nilai == "Ya" else "❌"
+            st.markdown(f"{icon} {label}")
 
-    # ----------------------------------------------------------
-    # 4. Hitung kecocokan tiap rule (Forward Chaining)
-    # ----------------------------------------------------------
-    akumulasi: dict[str, dict] = {}   # penyakit → hasil terbaik
+    st.markdown("---")
 
-    for rule in rules:
-        if not rule["gejala"]:
-            continue
+    # ========================
+    # JALANKAN ENGINE
+    # ========================
+    st.subheader("🔬 Hasil Diagnosa")
 
-        # Hitung gejala yang cocok
-        cocok = sum(1 for g in selected_gejala if g in rule["gejala"])
-        if cocok == 0:
-            continue
+    with st.spinner("Menganalisis gejala..."):
+        hasil = jalankan_forward_chaining(data, df)
 
-        total_rule = len(rule["gejala"])
-        persentase = (cocok / total_rule) * 100
+    # ========================
+    # TIDAK ADA HASIL
+    # ========================
+    if not hasil:
+        st.error("❌ Tidak ditemukan penyakit yang sesuai dengan gejala yang diinput.")
+        st.markdown("**Saran:** Coba tambahkan gejala yang lebih spesifik atau "
+                    "konsultasikan langsung ke dokter hewan.")
 
-        # Bonus suhu tubuh (toleransi ±2°C)
-        try:
-            suhu_rule = float(str(rule["suhu"]).replace("°C", "").strip())
-            if abs(float(data["suhu_tubuh"]) - suhu_rule) <= 2:
-                persentase += 10
-        except (ValueError, TypeError):
-            pass
+    else:
+        # ========================
+        # DIAGNOSA UTAMA (peringkat 1)
+        # ========================
+        top = hasil[0]
 
-        # Bonus detak jantung (toleransi ±30 bpm)
-        try:
-            detak_rule = int(str(rule["detak"]).replace("bpm", "").strip())
-            if abs(int(data["detak_jantung"]) - detak_rule) <= 30:
-                persentase += 10
-        except (ValueError, TypeError):
-            pass
+        st.markdown(f"""
+        <div class="card-utama">
+            <div class="persen-badge">🎯 Kecocokan Tertinggi: {top['kecocokan']}%</div>
+            <div class="penyakit-nama">🦠 {top['penyakit']}</div>
+            <p style="color:#6b7280; margin: 6px 0 14px 0;">
+                Gejala cocok: <b>{top['gejala_cocok']}</b> dari <b>{top['total_rule']}</b> gejala dalam rule
+            </p>
+            <p><b>📖 Deskripsi:</b><br>{top['deskripsi']}</p>
+            <p><b>💊 Saran:</b><br>{top['saran']}</p>
+        </div>
+        """, unsafe_allow_html=True)
 
-        persentase = min(round(persentase, 2), 100.0)
-        nama       = rule["penyakit"]
+        # ========================
+        # TABEL SEMUA HASIL
+        # ========================
+        st.subheader("📋 Seluruh Kemungkinan Diagnosa")
 
-        # Simpan hanya nilai kecocokan tertinggi per penyakit
-        if nama not in akumulasi or persentase > akumulasi[nama]["kecocokan"]:
-            akumulasi[nama] = {
-                "penyakit"     : nama,
-                "kecocokan"    : persentase,
-                "gejala_cocok" : cocok,
-                "total_rule"   : total_rule,
-            }
+        tabel = pd.DataFrame([{
+            "Penyakit"        : h["penyakit"],
+            "Kecocokan (%)"   : h["kecocokan"],
+            "Gejala Cocok"    : h["gejala_cocok"],
+            "Total Rule"      : h["total_rule"],
+        } for h in hasil])
 
-    # ----------------------------------------------------------
-    # 5. Gabungkan dengan deskripsi & saran
-    # ----------------------------------------------------------
-    hasil = []
-    for item in akumulasi.values():
-        info = DESKRIPSI_PENYAKIT.get(item["penyakit"], DESKRIPSI_DEFAULT)
-        hasil.append({
-            **item,
-            "deskripsi" : info["deskripsi"],
-            "saran"     : info["saran"],
-        })
+        st.dataframe(tabel, use_container_width=True, hide_index=True)
 
-    # Urutkan dari kecocokan tertinggi
-    hasil.sort(key=lambda x: x["kecocokan"], reverse=True)
-    return hasil
+        # ========================
+        # DIAGRAM BATANG
+        # ========================
+        st.subheader("📈 Diagram Tingkat Kecocokan")
+
+        chart_df = tabel.set_index("Penyakit")[["Kecocokan (%)"]]
+        st.bar_chart(chart_df)
+
+        # ========================
+        # DETAIL TIAP KEMUNGKINAN
+        # (selain diagnosa utama)
+        # ========================
+        if len(hasil) > 1:
+            with st.expander("📂 Lihat detail kemungkinan lainnya"):
+                for h in hasil[1:]:
+                    st.markdown(f"**🦠 {h['penyakit']}** — {h['kecocokan']}%")
+                    st.markdown(f"_{h['deskripsi']}_")
+                    st.markdown(f"💊 {h['saran']}")
+                    st.markdown("---")
+
+    # ========================
+    # EXPANDER DATASET
+    # ========================
+    with st.expander("📁 Lihat Dataset"):
+        st.dataframe(df, use_container_width=True)
+
+    # ========================
+    # TOMBOL ULANGI
+    # ========================
+    st.markdown("<br>", unsafe_allow_html=True)
+    if st.button("🔄 Ulangi Diagnosa"):
+        st.session_state["sudah_diagnosa"] = False
+        st.session_state["data_diagnosa"]  = {}
+        st.rerun()
